@@ -14,6 +14,23 @@
       text-align: center;
     }
 
+    nav {
+      background: rgba(0,0,0,0.3);
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
     header {
       padding: 100px 20px;
     }
@@ -36,11 +53,6 @@
       text-decoration: none;
       border-radius: 10px;
       font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .button:hover {
-      background: #ddd;
     }
 
     section {
@@ -58,19 +70,40 @@
 
 <body>
 
+  <nav>
+    <a href="#">Startseite</a>
+
+    <a href="https://youtube.com/" target="_blank">
+      YouTube
+    </a>
+
+    <a href="https://instagram.com/" target="_blank">
+      Instagram
+    </a>
+
+    <a href="https://tiktok.com/" target="_blank">
+      TikTok
+    </a>
+  </nav>
+
   <header>
     <h1>Willkommen 👋</h1>
-    <p>Meine erste eigene Website</p>
 
-    <a class="button" href="#">Mehr erfahren</a>
+    <p>
+      Das ist meine eigene Website
+    </p>
+
+    <a class="button" href="#">
+      Mehr erfahren
+    </a>
   </header>
 
   <section>
     <h2>Über mich</h2>
 
     <p>
-      Hier kannst du später Texte, Bilder,
-      Social Media Links oder Projekte einfügen.
+      Hier kannst du später Bilder,
+      Videos oder Infos über dich einfügen.
     </p>
   </section>
 
