@@ -52,6 +52,14 @@
       a.download:hover {
         text-decoration: underline;
       }
+
+      .impressum-box {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 500px;
+      }
+
     </style>
   </head>
 
@@ -65,6 +73,7 @@
       <a href="#" onclick="showPage('personen')">Personen</a>
       <a href="#" onclick="showPage('dateien')">Dateien</a>
       <a href="#" onclick="showPage('drehbuch')">Drehbuch</a>
+      <a href="#" onclick="showPage('impressum')">Impressum</a>
     </nav>
 
     <!-- PERSONEN -->
@@ -73,12 +82,8 @@
 
       <ul>
         <li>Max</li>
-        <li>Emilia</li>
-        <li>Marlene</li>
-        <li>Frieda</li>
-        <li>Isabelle</li>
-        <li>Emilia</li>
-        <li>Sophie (Fishi)</li>
+        <li>Lisa</li>
+        <li>Tom</li>
       </ul>
     </div>
 
@@ -104,10 +109,29 @@
       </p>
     </div>
 
+    <!-- IMPRESSUM -->
+    <div id="impressum" class="page">
+
+      <div class="impressum-box">
+
+        <h2>Impressum</h2>
+
+        <p><strong>Name:</strong> Max Voge</p>
+
+        <p><strong>Telefon:</strong> 017632609863</p>
+
+        <p><strong>E-Mail:</strong> maxvoge26@icloud.com</p>
+
+        <p><strong>Adresse:</strong> Schleusenweg 79</p>
+
+      </div>
+
+    </div>
+
     <script>
 
       // Passwortschutz
-      const password = '21092025';
+      const password = 'deinpasswort';
       const userInput = prompt('Bitte Passwort eingeben:');
 
       if (userInput !== password) {
@@ -127,32 +151,6 @@
         document.getElementById(pageId).classList.add('active');
       }
 
-      <footer style="background-color:#333; color:white; padding:20px; margin-top:50px; text-align:center;">
-
-  <h3>Impressum</h3>
-
-  <p>Name: Max Voge</p>
-
-  <p>Telefon: 017632609863</p>
-
-  <p>E-Mail: maxvoge26@icloud.com</p>
-
-  <p>Adresse: Schleusenweg 79</p>
-
-<footer style="background-color:#333; color:white; padding:20px; margin-top:50px; text-align:center;">
-
-  <h3>Impressum</h3>
-
-  <p>Name: Max Voge</p>
-
-  <p>Telefon: 017632609863</p>
-
-  <p>E-Mail: maxvoge26@icloud.com</p>
-
-  <p>Adresse: Schleusenweg 79</p>
-
-</footer>
-      
     </script>
 
   </body>
