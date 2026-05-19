@@ -17,19 +17,16 @@
         text-align: center;
       }
 
-      h1 {
-        margin: 0;
-      }
-
       nav {
         background-color: #555;
         padding: 15px;
+        display: flex;
+        gap: 20px;
       }
 
       nav a {
         color: white;
         text-decoration: none;
-        margin-right: 20px;
         font-weight: bold;
       }
 
@@ -37,12 +34,13 @@
         text-decoration: underline;
       }
 
-      .content {
-        margin: 40px;
+      .page {
+        display: none;
+        padding: 40px;
       }
 
-      ul {
-        padding-left: 20px;
+      .active {
+        display: block;
       }
 
       a.download {
@@ -60,36 +58,71 @@
   <body>
 
     <header>
-      <h1>Trailer</h1>
+      <h1>Trailer Projekt</h1>
     </header>
 
     <nav>
-      <a href="#">Personen</a>
-      <a href="#">Dateien</a>
-      <a href="#">Drehbuch</a>
+      <a href="#" onclick="showPage('personen')">Personen</a>
+      <a href="#" onclick="showPage('dateien')">Dateien</a>
+      <a href="#" onclick="showPage('drehbuch')">Drehbuch</a>
     </nav>
 
-    <div class="content">
+    <!-- PERSONEN -->
+    <div id="personen" class="page active">
+      <h2>Personen</h2>
 
+      <ul>
+        <li>Max</li>
+        <li>Lisa</li>
+        <li>Tom</li>
+      </ul>
+    </div>
+
+    <!-- DATEIEN -->
+    <div id="dateien" class="page">
       <h2>Dateien</h2>
 
       <ul>
         <li>
           <a class="download" href="klassenarbeit spanisch neu.docx">
-            Eine Datei herunterladen
+            Word-Datei herunterladen
           </a>
         </li>
       </ul>
+    </div>
 
+    <!-- DREHBUCH -->
+    <div id="drehbuch" class="page">
+      <h2>Drehbuch</h2>
+
+      <p>
+        Hier könnt ihr euer Drehbuch hinschreiben.
+      </p>
     </div>
 
     <script>
+
+      // Passwortschutz
       const password = 'deinpasswort';
       const userInput = prompt('Bitte Passwort eingeben:');
 
       if (userInput !== password) {
-        document.body.innerHTML = '<h2 style="text-align:center; margin-top:50px;">Zugriff verweigert</h2>';
+        document.body.innerHTML =
+          '<h2 style="text-align:center; margin-top:50px;">Zugriff verweigert</h2>';
       }
+
+      // Seiten wechseln
+      function showPage(pageId) {
+
+        const pages = document.querySelectorAll('.page');
+
+        pages.forEach(page => {
+          page.classList.remove('active');
+        });
+
+        document.getElementById(pageId).classList.add('active');
+      }
+
     </script>
 
   </body>
