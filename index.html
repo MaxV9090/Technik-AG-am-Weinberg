@@ -2,50 +2,95 @@
 <html>
   <head>
     <title>Mein Musikprojekt</title>
+
     <style>
       body {
         margin: 0;
         font-family: Arial, sans-serif;
         background-color: #f0f0f0;
       }
+
       header {
         background-color: #333;
         color: white;
         padding: 20px;
         text-align: center;
       }
+
       h1 {
         margin: 0;
       }
-      .content {
-        margin: 50px;
-        text-align: left;
+
+      nav {
+        background-color: #555;
+        padding: 15px;
       }
-      a {
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      .content {
+        margin: 40px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a.download {
         color: #007BFF;
         text-decoration: none;
         font-weight: bold;
       }
-      a:hover {
+
+      a.download:hover {
         text-decoration: underline;
       }
     </style>
   </head>
+
   <body>
+
     <header>
       <h1>Trailer</h1>
     </header>
+
+    <nav>
+      <a href="#">Personen</a>
+      <a href="#">Dateien</a>
+      <a href="#">Drehbuch</a>
+    </nav>
+
     <div class="content">
-      <p>Hier könnt ihr Dateien herunterladen:</p>
+
+      <h2>Dateien</h2>
+
       <ul>
-        <li><a href="klassenarbeit spanisch neu">ein bsp für eine datei</a></li>
+        <li>
+          <a class="download" href="klassenarbeit spanisch neu.docx">
+            Eine Datei herunterladen
+          </a>
+        </li>
       </ul>
+
     </div>
+
     <script>
-  const password = 'geheim'; // 21092025
-  const userInput = prompt('Bitte Passwort eingeben:');
-  if (userInput !== password) {
-    document.body.innerHTML = '<h2>Zugriff verweigert</h2>';
-  }
-</script>
-  </
+      const password = 'deinpasswort';
+      const userInput = prompt('Bitte Passwort eingeben:');
+
+      if (userInput !== password) {
+        document.body.innerHTML = '<h2 style="text-align:center; margin-top:50px;">Zugriff verweigert</h2>';
+      }
+    </script>
+
+  </body>
+</html>
