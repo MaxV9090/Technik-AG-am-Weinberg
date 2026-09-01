@@ -22,6 +22,8 @@
       margin: 0;
       font-family: Arial, sans-serif;
 
+      color: white;
+
       /* Hintergrundbild */
       background-image: url("hintergrund.jpg");
       background-size: cover;
@@ -30,11 +32,6 @@
       background-repeat: no-repeat;
 
       min-height: 100vh;
-
-      display: flex;
-      flex-direction: column;
-
-      color: white;
     }
 
 
@@ -45,12 +42,14 @@
     header {
       background-color: rgba(0, 0, 0, 0.85);
       color: white;
+
       padding: 20px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
+      font-size: 28px;
     }
 
 
@@ -60,6 +59,7 @@
 
     nav {
       background-color: rgba(0, 0, 0, 0.85);
+
       padding: 15px;
 
       display: flex;
@@ -81,35 +81,50 @@
 
 
     /* =========================
-       INHALT
+       INHALTSBEREICH
+       ========================= */
+
+    /*
+       Der Inhaltsbereich nimmt mindestens
+       eine komplette Bildschirmhöhe ein.
+
+       Dadurch ist das Impressum beim
+       Öffnen der Seite NICHT sichtbar.
+    */
+
+    main {
+      min-height: 100vh;
+      padding-top: 1px;
+      box-sizing: border-box;
+    }
+
+
+    /* =========================
+       SEITEN
        ========================= */
 
     .page {
       display: none;
 
-      /* Schwarzer Kasten */
       background-color: rgba(0, 0, 0, 0.80);
 
       color: white;
 
       padding: 30px;
+
       margin: 30px;
 
       border-radius: 15px;
 
       /*
-       * Breite des schwarzen Kastens.
-       * Auf dem PC ungefähr bis zu deinem
-       * weißen Strich.
-       */
-      width: 45%;
+         Kasten deutlich schmaler
+      */
+      width: 35%;
 
       /*
-       * Der Inhalt ist hoch genug,
-       * damit das Impressum nicht sofort
-       * sichtbar ist.
-       */
-      min-height: 600px;
+         Höhe des Kastens
+      */
+      min-height: 400px;
 
       box-sizing: border-box;
     }
@@ -118,10 +133,16 @@
       display: block;
     }
 
+
+    /* Überschriften */
+
     .page h2 {
       color: white;
       margin-top: 0;
     }
+
+
+    /* Text */
 
     .page p,
     .page li {
@@ -131,12 +152,14 @@
 
 
     /* =========================
-       DOWNLOAD-LINKS
+       DOWNLOADS
        ========================= */
 
     a.download {
       color: white;
+
       text-decoration: none;
+
       font-weight: bold;
     }
 
@@ -156,23 +179,26 @@
 
       text-align: center;
 
-      padding: 30px;
+      padding: 35px;
 
-      /*
-       * Abstand nach dem Hauptinhalt.
-       * Dadurch muss man nach unten scrollen.
-       */
-      margin-top: 100px;
+      margin-top: 0;
+
+      box-sizing: border-box;
     }
 
-    footer h3,
+    footer h3 {
+      color: white;
+      margin-top: 0;
+    }
+
     footer p {
       color: white;
+      margin: 8px 0;
     }
 
 
     /* =========================
-       HANDY
+       HANDY-ANSICHT
        ========================= */
 
     @media (max-width: 700px) {
@@ -187,14 +213,19 @@
 
       .page {
         width: auto;
+
         margin: 20px;
+
         padding: 25px;
 
-        min-height: 600px;
+        min-height: 500px;
+      }
+
+      main {
+        min-height: 100vh;
       }
 
       footer {
-        margin-top: 100px;
         padding: 25px 15px;
       }
 
@@ -212,7 +243,11 @@
        ========================= -->
 
   <header>
-    <h1>Technik AG am Weinberg</h1>
+
+    <h1>
+      Technik AG am Weinberg
+    </h1>
+
   </header>
 
 
@@ -238,136 +273,204 @@
 
 
   <!-- =========================
-       VERANSTALTUNGEN
+       HAUPTINHALT
        ========================= -->
 
-  <div id="personen" class="page active">
-
-    <h2>Veranstaltungen</h2>
-
-    <ul>
-
-      <li>
-        Informationsveranstaltung 31.08.2026 18:00
-      </li>
-
-      <li>
-        Informationsveranstaltung 01.09.2026 18:00
-      </li>
-
-      <li>
-        Informationsveranstaltung 01.09.2026 19:00
-      </li>
-
-    </ul>
-
-  </div>
+  <main>
 
 
-  <!-- =========================
-       DATEIEN
-       ========================= -->
+    <!-- =========================
+         VERANSTALTUNGEN
+         ========================= -->
 
-  <div id="dateien" class="page">
+    <div id="personen" class="page active">
 
-    <h2>Dateien</h2>
+      <h2>
+        Veranstaltungen
+      </h2>
 
-    <ul>
+      <ul>
 
-      <li>
-        <a class="download" href="drehbuch1.jpeg" download>
-          Drehbuch1 herunterladen
-        </a>
-      </li>
+        <li>
+          Informationsveranstaltung 31.08.2026 18:00
+        </li>
 
-      <li>
-        <a class="download" href="drohnenaufnahme1.mp4" download>
-          Drohnenaufnahme1 herunterladen
-        </a>
-      </li>
+        <li>
+          Informationsveranstaltung 01.09.2026 18:00
+        </li>
 
-    </ul>
+        <li>
+          Informationsveranstaltung 01.09.2026 19:00
+        </li>
 
-  </div>
+      </ul>
+
+    </div>
 
 
-  <!-- =========================
-       DREHBUCH
-       ========================= -->
+    <!-- =========================
+         DATEIEN
+         ========================= -->
 
-  <div id="drehbuch" class="page">
+    <div id="dateien" class="page">
 
-    <h2>Drehbuch</h2>
+      <h2>
+        Dateien
+      </h2>
 
-    <p>
+      <ul>
 
-      <strong>1. Szene Einstellung 1:</strong><br>
-      Nahaufnahme der Skateboards (Kamera)<br>
-      Song: Teenage Dirtbag<br>
-      Ästhetik: Sonnenuntergangsstimmung<br>
-      Rolle: Sarah & Juna<br>
-      <br>
+        <li>
+          <a class="download"
+             href="drehbuch1.jpeg"
+             download>
+            Drehbuch1 herunterladen
+          </a>
+        </li>
 
-      <strong>1. Szene Einstellung 2:</strong><br>
-      Frontal v. unten weg Richtung o. (Drohne)<br>
-      Song: Teenage Dirtbag<br>
-      Ästhetik: Sonnenuntergangsstimmung<br>
-      Rolle: Sarah & Juna<br>
-      <br>
+        <li>
+          <a class="download"
+             href="drohnenaufnahme1.mp4"
+             download>
+            Drohnenaufnahme1 herunterladen
+          </a>
+        </li>
 
-      <strong>1. Szene Einstellung 3:</strong><br>
-      Vom Stromkasten aus Richtung Straße<br>
-      Song: Teenage Dirtbag<br>
-      Ästhetik: Sonnenuntergangsstimmung<br>
-      Rolle: Sarah & Juna<br>
+      </ul>
 
-      Handlung:<br>
-      - Sarah und Juna fahren Hügel runter<br>
-      - Am Bordstein hochtreten und zum Stromkasten laufen<br>
+    </div>
 
-      <br>
 
-      <strong>1. Szene Einstellung 4:</strong><br>
-      Von RM Richtung Stromkasten<br>
-      Song: Teenage Dirtbag<br>
-      Ästhetik: Sonnenuntergangsstimmung<br>
-      Rolle: Sarah, Juna & Lilly<br>
+    <!-- =========================
+         DREHBUCH
+         ========================= -->
 
-      Handlung:<br>
-      - Lilly sitzt auf dem Stromkasten<br>
-      - Juna und Sarah legen Boards ab und klettern hoch.<br>
+    <div id="drehbuch" class="page">
 
-      <br>
+      <h2>
+        Drehbuch
+      </h2>
 
-      <strong>1. Szene Einstellung 5:</strong><br>
-      Nahaufnahme von Figuren<br>
-      Song: Teenage Dirtbag<br>
-      Ästhetik: Sonnenuntergangsstimmung<br>
-      Rolle: Sarah, Juna & Lilly<br>
+      <p>
 
-      Handlung:<br>
-      - Sarah holt Bier aus Rucksack<br>
-      - Andere quatschen<br>
+        <strong>1. Szene Einstellung 1:</strong><br>
 
-      <br>
+        Nahaufnahme der Skateboards (Kamera)<br>
 
-      <strong>Dialog:</strong><br>
-      <br>
+        Song: Teenage Dirtbag<br>
 
-      Lilly: Oh, Hi Leute!<br>
+        Ästhetik: Sonnenuntergangsstimmung<br>
 
-      Juna: Hey Lilly. Sarah hat Suff dabei.<br>
+        Rolle: Sarah & Juna
 
-      Sarah (klettert hoch): Voila! (grinsend)<br>
+        <br><br>
 
-      Juna: Ach Mensch, Sarah warum immer so viel.
-      Ich dachte du hast ein bisschen mit.<br>
 
-      Sarah: Entspann dich.
+        <strong>1. Szene Einstellung 2:</strong><br>
 
-    </p>
+        Frontal v. unten weg Richtung o. (Drohne)<br>
 
-  </div>
+        Song: Teenage Dirtbag<br>
+
+        Ästhetik: Sonnenuntergangsstimmung<br>
+
+        Rolle: Sarah & Juna
+
+        <br><br>
+
+
+        <strong>1. Szene Einstellung 3:</strong><br>
+
+        Vom Stromkasten aus Richtung Straße<br>
+
+        Song: Teenage Dirtbag<br>
+
+        Ästhetik: Sonnenuntergangsstimmung<br>
+
+        Rolle: Sarah & Juna
+
+        <br><br>
+
+        <strong>Handlung:</strong><br>
+
+        - Sarah und Juna fahren Hügel runter<br>
+
+        - Am Bordstein hochtreten und zum Stromkasten laufen
+
+        <br><br>
+
+
+        <strong>1. Szene Einstellung 4:</strong><br>
+
+        Von RM Richtung Stromkasten<br>
+
+        Song: Teenage Dirtbag<br>
+
+        Ästhetik: Sonnenuntergangsstimmung<br>
+
+        Rolle: Sarah, Juna & Lilly
+
+        <br><br>
+
+        <strong>Handlung:</strong><br>
+
+        - Lilly sitzt auf dem Stromkasten<br>
+
+        - Juna und Sarah legen Boards ab und klettern hoch.
+
+        <br><br>
+
+
+        <strong>1. Szene Einstellung 5:</strong><br>
+
+        Nahaufnahme von Figuren<br>
+
+        Song: Teenage Dirtbag<br>
+
+        Ästhetik: Sonnenuntergangsstimmung<br>
+
+        Rolle: Sarah, Juna & Lilly
+
+        <br><br>
+
+        <strong>Handlung:</strong><br>
+
+        - Sarah holt Bier aus Rucksack<br>
+
+        - Andere quatschen
+
+        <br><br>
+
+
+        <strong>Dialog:</strong>
+
+        <br><br>
+
+        Lilly: Oh, Hi Leute!
+
+        <br>
+
+        Juna: Hey Lilly. Sarah hat Suff dabei.
+
+        <br>
+
+        Sarah (klettert hoch):
+        Voila! (grinsend)
+
+        <br>
+
+        Juna: Ach Mensch, Sarah warum immer so viel.
+        Ich dachte du hast ein bisschen mit.
+
+        <br>
+
+        Sarah: Entspann dich.
+
+      </p>
+
+    </div>
+
+  </main>
 
 
   <!-- =========================
@@ -376,15 +479,25 @@
 
   <footer>
 
-    <h3>Impressum</h3>
+    <h3>
+      Impressum
+    </h3>
 
-    <p>Name: Max Voge</p>
+    <p>
+      Name: Max Voge
+    </p>
 
-    <p>Telefon: 017632609863</p>
+    <p>
+      Telefon: 017632609863
+    </p>
 
-    <p>E-Mail: maxvoge26@icloud.com</p>
+    <p>
+      E-Mail: maxvoge26@icloud.com
+    </p>
 
-    <p>Adresse: Schleusenweg 79</p>
+    <p>
+      Adresse: Schleusenweg 79
+    </p>
 
   </footer>
 
@@ -395,11 +508,15 @@
 
   <script>
 
-    /* Passwortschutz */
+    /* =========================
+       PASSWORTSCHUTZ
+       ========================= */
 
     const password = '2504';
 
-    const userInput = prompt('Bitte Passwort eingeben:');
+    const userInput = prompt(
+      'Bitte Passwort eingeben:'
+    );
 
     if (userInput !== password) {
 
@@ -407,29 +524,37 @@
         '<h2 style="color:white; text-align:center; margin-top:50px;">Zugriff verweigert</h2>';
 
       document.body.style.backgroundColor = '#111';
+
       document.body.style.backgroundImage = 'none';
     }
 
 
-    /* Seiten wechseln */
+    /* =========================
+       SEITEN WECHSELN
+       ========================= */
 
     function showPage(pageId) {
 
-      const pages = document.querySelectorAll('.page');
+      const pages =
+        document.querySelectorAll('.page');
 
       pages.forEach(page => {
         page.classList.remove('active');
       });
 
-      document.getElementById(pageId).classList.add('active');
+      document
+        .getElementById(pageId)
+        .classList.add('active');
 
       window.scrollTo({
         top: 0,
         behavior: 'smooth'
       });
+
     }
 
   </script>
+
 
 </body>
 
