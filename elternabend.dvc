@@ -1,0 +1,785 @@
+
+<DLMFILE TYPE="Daslight" VERSION="5" DASBUILD="25.0905.165.111" VERSIONFILE="2">
+    <CONFIGURATION VIEWZOOM="0.493023" VIEWPOSX="314" VIEWPOSY="74" TOUCH_DOCK_MANAGER="000001ad78da7d50cb6ec23010bcf72b56be221a90387008418836e2421f02dab38997c822b12b7b89da7e7dc750452a523979776676c6bbf9fcb36da8e310ad773335be1f29625779635d3d53bb6d399caa7991bfcac274da556c1e7c7504b7f98ac22dbdf5838a769143dfc366e99d68eb8024bac8fb9ecac66b39078c806f3e1a2b02f839588644ce06c364707272995d04d6b4d57b584d409c42e044ad57b4f61db7682254efd6d42cf4a45b06872c481b1fd9a4a0ec8a2f75d8b3a3013d1e0e7c14bea5fd937343f7a26ba6c995224b9fc79af69b63319e529e5d4abcbf9ba3ec8f83fa9f6317773f42a68c68" TOUCH_ZOOMS="6,-6,4,1"/>
+    <PATCHS DATA="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"/>
+    <FIXTUREGROUPS>
+        <FIXTUREGROUP DASUID="743c58e0-fa53-4a02-9991-530461729a2f" NAME="All" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="ad523647-b553-4100-bc6f-657bab8cd1af"/>
+                <FIXTURE DASUID="f1d36956-987b-4aae-8a28-81a2e6957c4b"/>
+                <FIXTURE DASUID="933d362d-ecd6-45a8-a9ac-ff105a794916"/>
+                <FIXTURE DASUID="f0cdcff2-c5fd-4309-a170-d330ac2c0ed3"/>
+                <FIXTURE DASUID="67e0f24d-e169-44ff-ab16-bce2ba9a9a66"/>
+                <FIXTURE DASUID="80099d05-3738-42c1-9b83-a35739457cf3"/>
+                <FIXTURE DASUID="d1008c60-2962-4864-9d1c-ecfc110ce2c7"/>
+                <FIXTURE DASUID="1028d284-ee9a-4579-abe0-d3582a80526f"/>
+                <FIXTURE DASUID="67b04389-06f6-4375-9aac-f3f33a65ad89"/>
+                <FIXTURE DASUID="6360082c-3d91-4c0e-b052-9c41f6236d06"/>
+                <FIXTURE DASUID="55df6c56-d01b-455b-9e28-016c34667ac4"/>
+                <FIXTURE DASUID="ad65a255-ae8a-4a3a-a655-73fb959c2293"/>
+                <FIXTURE DASUID="8d074eb0-10b5-408d-aee3-35c4ae95ce3e"/>
+                <FIXTURE DASUID="6b39d205-32d4-4393-9afc-e7ae70119632"/>
+                <FIXTURE DASUID="aec3178f-c1d2-4d45-977b-f2e608710366"/>
+                <FIXTURE DASUID="abb61b61-33c9-42d3-855d-3b0941c425d1"/>
+                <FIXTURE DASUID="d3076cbd-eb20-4f5f-856d-69a00fc97af3"/>
+                <FIXTURE DASUID="593c8fdf-a17d-433b-a915-b1376fecd41a"/>
+                <FIXTURE DASUID="ef4aa9ba-4673-4fd5-85cf-b5ef92be0b73"/>
+                <FIXTURE DASUID="0b1750b0-a074-436c-80b5-b8a0a35903a0"/>
+                <FIXTURE DASUID="6b97ed3e-71dd-4239-b0e8-b502bd733a68"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="8fe4ee3a-0f12-4c2d-a03e-0ff3f3219200" NAME="LEDs all" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="6360082c-3d91-4c0e-b052-9c41f6236d06"/>
+                <FIXTURE DASUID="6b39d205-32d4-4393-9afc-e7ae70119632"/>
+                <FIXTURE DASUID="55df6c56-d01b-455b-9e28-016c34667ac4"/>
+                <FIXTURE DASUID="aec3178f-c1d2-4d45-977b-f2e608710366"/>
+                <FIXTURE DASUID="6b97ed3e-71dd-4239-b0e8-b502bd733a68"/>
+                <FIXTURE DASUID="ad65a255-ae8a-4a3a-a655-73fb959c2293"/>
+                <FIXTURE DASUID="abb61b61-33c9-42d3-855d-3b0941c425d1"/>
+                <FIXTURE DASUID="593c8fdf-a17d-433b-a915-b1376fecd41a"/>
+                <FIXTURE DASUID="ef4aa9ba-4673-4fd5-85cf-b5ef92be0b73"/>
+                <FIXTURE DASUID="0b1750b0-a074-436c-80b5-b8a0a35903a0"/>
+                <FIXTURE DASUID="8d074eb0-10b5-408d-aee3-35c4ae95ce3e"/>
+                <FIXTURE DASUID="d3076cbd-eb20-4f5f-856d-69a00fc97af3"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="aff9bd2b-3979-4372-8f52-71cd1d583230" NAME="MH all" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="ad523647-b553-4100-bc6f-657bab8cd1af"/>
+                <FIXTURE DASUID="f1d36956-987b-4aae-8a28-81a2e6957c4b"/>
+                <FIXTURE DASUID="933d362d-ecd6-45a8-a9ac-ff105a794916"/>
+                <FIXTURE DASUID="f0cdcff2-c5fd-4309-a170-d330ac2c0ed3"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="aa584d5a-9f00-472d-8d0e-85844d277bc1" NAME="Hazer" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="d1008c60-2962-4864-9d1c-ecfc110ce2c7"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="e64c3dc3-0dbd-4715-bf8c-d494bd3b775a" NAME="Spot all" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="1028d284-ee9a-4579-abe0-d3582a80526f"/>
+                <FIXTURE DASUID="67b04389-06f6-4375-9aac-f3f33a65ad89"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="6f33b659-7963-442a-8ccd-e73e7c0a4a7a" NAME="led top" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="6b97ed3e-71dd-4239-b0e8-b502bd733a68"/>
+                <FIXTURE DASUID="593c8fdf-a17d-433b-a915-b1376fecd41a"/>
+                <FIXTURE DASUID="0b1750b0-a074-436c-80b5-b8a0a35903a0"/>
+                <FIXTURE DASUID="d3076cbd-eb20-4f5f-856d-69a00fc97af3"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="9682037a-e976-43d5-8497-c089e272b92c" NAME="led wand" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="aec3178f-c1d2-4d45-977b-f2e608710366"/>
+                <FIXTURE DASUID="abb61b61-33c9-42d3-855d-3b0941c425d1"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="24647dcf-d6ce-49b7-b4c6-e9b395c82999" NAME="led alt" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="67e0f24d-e169-44ff-ab16-bce2ba9a9a66"/>
+                <FIXTURE DASUID="80099d05-3738-42c1-9b83-a35739457cf3"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="70f39f6a-9db3-4aba-a1eb-899e3b498282" NAME="led vorhang" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="6b39d205-32d4-4393-9afc-e7ae70119632"/>
+                <FIXTURE DASUID="8d074eb0-10b5-408d-aee3-35c4ae95ce3e"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="73ac7a14-e0c4-41f5-8791-968e5ac22d4a" NAME="led geländer" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="55df6c56-d01b-455b-9e28-016c34667ac4"/>
+                <FIXTURE DASUID="ad65a255-ae8a-4a3a-a655-73fb959c2293"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="d1722400-f112-4ebb-8cd9-666bd86a1997" NAME="mh" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="ad523647-b553-4100-bc6f-657bab8cd1af"/>
+                <FIXTURE DASUID="f1d36956-987b-4aae-8a28-81a2e6957c4b"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+        <FIXTUREGROUP DASUID="89f45ea1-b139-45b7-b27c-a7d9b4b40238" NAME="led bühne" TOGGLE_BLACKOUT="0" TOGGLE_STROBE="0" TOGGLE_FULL="0" TOGGLE_EXCLUSIVE_FULL="0" TOGGLE_FLASH="0" TOGGLE_EXCLUSIVE_FLASH="0">
+            <FIXTURES>
+                <FIXTURE DASUID="6360082c-3d91-4c0e-b052-9c41f6236d06"/>
+            </FIXTURES>
+            <BEAMSELECTION/>
+        </FIXTUREGROUP>
+    </FIXTUREGROUPS>
+    <SCENES>
+        <BANK DASUID="75ebfe3a-984a-477d-8ac5-786f022cf0bd" NAME="Bank 1" COLOR="#fff69031" COLLAPSED="0" PAUSED="0" HIDDEN="0" NBSCENE="3">
+            <SCENE DASUID="c7392d6a-f5ca-4ce2-93f2-ec9f796137d8" NAME="Weinberg " COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" PHASE_IN="0" PHASE_OUT="0" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="21">
+                    <FIXTUREDATA FIXTURE="d3076cbd-eb20-4f5f-856d-69a00fc97af3" DATA="eJxi4Gb4D4TKDF/+owAGBgZGGwaDKut1exhQoQ0QMgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="0b1750b0-a074-436c-80b5-b8a0a35903a0" DATA="eJxi4Gb4D4TKDF/+owAGBgZGGwaDKut1exhQoQ0QMgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6b97ed3e-71dd-4239-b0e8-b502bd733a68" DATA="eJxi4Gb4D4TKDF/+owAGBgZGGwaDKut1exhQoQ0QMgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6b39d205-32d4-4393-9afc-e7ae70119632" DATA="eJxi4Gb4D4TKDF/+owAGBgZGGwaDKut1exhQoQ0QMgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="aec3178f-c1d2-4d45-977b-f2e608710366" DATA="eJxi4Gb4D4SyDAX/UQADAwOjDYN+jjnHHgYYtIGSNgxMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" DATA="eJxi4GOwZJjJIMew4/9/hv8MygxfgOR/GGBgYGC0YTCosl63hwEBjY3119kw2DAwAQAAAP//"/>
+                    <FIXTUREDATA FIXTURE="abb61b61-33c9-42d3-855d-3b0941c425d1" DATA="eJxi4Gb4D4SyDAX/UQADAwOjDYN+jjnHHgYYtIGSNgxMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="933d362d-ecd6-45a8-a9ac-ff105a794916" DATA="eJxi4GNg+P+fgeU/EDD8Z1Bm+AIk/8MAAwMDow2DQZX1uj0MqNAGCJkAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="1028d284-ee9a-4579-abe0-d3582a80526f" DATA="eJxiEGBQZ3jP8J/h////DAwMLAxV/9EAUJTRhsGgynrdHgYYBPL/2gAlbBgYAQAAAP//"/>
+                    <FIXTUREDATA FIXTURE="593c8fdf-a17d-433b-a915-b1376fecd41a" DATA="eJxi4Gb4D4TKDF/+owAGBgZGGwaDKut1exhQoQ0QMgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="67e0f24d-e169-44ff-ab16-bce2ba9a9a66" DATA="eJxiYGP4D4TKDF/+AwEDAwOjDYNBlfW6PQyo0AYImQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="80099d05-3738-42c1-9b83-a35739457cf3" DATA="eJxiYGP4D4TKDF/+AwEDAwOjDYNBlfW6PQyo0AYImQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6360082c-3d91-4c0e-b052-9c41f6236d06" DATA="eJxi4Gb4D4TKDHv+owAGBgZGGwaDKssXexhQoQ0QMgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" DATA="eJxi4GOwZAhnUGYI/v+f4T+Q/gIk/8MAAwMDow2DQZX1uj0MCGisbZBlw2DDwAQAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="d1008c60-2962-4864-9d1c-ecfc110ce2c7" DATA="eJxiYPoPBAwMDIw2DAZV1uv2MKBCGyBkAgAAAP//"/>
+                    <FIXTUREDATA FIXTURE="8d074eb0-10b5-408d-aee3-35c4ae95ce3e" DATA="eJxi4Gb4D4TKDF/+owAGBgZGGwaDKut1exhQoQ0QMgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="55df6c56-d01b-455b-9e28-016c34667ac4" DATA="eJxi4Gb4D4TKDF/+owAGBgZGGwaDKut1exhQoQ0QMgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="f0cdcff2-c5fd-4309-a170-d330ac2c0ed3" DATA="eJxi4GNg/P+fgek/EDD8Z1Bm+AIk/8MAAwMDow2DQZX1uj0MqNAGCJkAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="ef4aa9ba-4673-4fd5-85cf-b5ef92be0b73" DATA="eJxi4Gb4D4TKDF/+owAGBgZGGwaDKut1exhQoQ0QMgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="67b04389-06f6-4375-9aac-f3f33a65ad89" DATA="eJxiEGBg+P+fgeU/EDAwMLAwVP1HA0BRRhsGgyrrdXsYYNAGTDIAaUYAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="ad65a255-ae8a-4a3a-a655-73fb959c2293" DATA="eJxi4Gb4D4TKDF/+owAGBgZGGwaDKut1exhQoQ0QMgEAAAD//w=="/>
+                </FIXTUREDATAS>
+                <RACKS/>
+            </SCENE>
+            <SCENE DASUID="0281681e-5d64-4813-8d2f-59c0fa9365d6" NAME="New Scene" COLOR="#fff69031" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" PHASE_IN="0" PHASE_OUT="0" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="21">
+                    <FIXTUREDATA FIXTURE="d3076cbd-eb20-4f5f-856d-69a00fc97af3" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="0b1750b0-a074-436c-80b5-b8a0a35903a0" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6b97ed3e-71dd-4239-b0e8-b502bd733a68" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6b39d205-32d4-4393-9afc-e7ae70119632" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="aec3178f-c1d2-4d45-977b-f2e608710366" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" DATA="eJxi4GNg/P+fge0/EDDAIQwwMDAw2jCA4B44tIGSNgxMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="abb61b61-33c9-42d3-855d-3b0941c425d1" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="933d362d-ecd6-45a8-a9ac-ff105a794916" DATA="eJxi4GNg/P+fgek/EmBAsBgYGPcwYIM2QMwAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="1028d284-ee9a-4579-abe0-d3582a80526f" DATA="eJxiEGBg+P+fgeU/EDD8xwYYGBgY9zBggzZAzAAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="593c8fdf-a17d-433b-a915-b1376fecd41a" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="67e0f24d-e169-44ff-ab16-bce2ba9a9a66" DATA="eJxiYGP4jwAMDAyMexiwQRsgZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="80099d05-3738-42c1-9b83-a35739457cf3" DATA="eJxiYGP4jwAMDAyMexiwQRsgZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6360082c-3d91-4c0e-b052-9c41f6236d06" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" DATA="eJxi4GNg+P+fgeU/EDDAIQwwMDAw2jCA4B44tIGSNgxMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="d1008c60-2962-4864-9d1c-ecfc110ce2c7" DATA="eJxiYPoPBAwMDIx7GLBBGyBmAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="8d074eb0-10b5-408d-aee3-35c4ae95ce3e" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="55df6c56-d01b-455b-9e28-016c34667ac4" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="f0cdcff2-c5fd-4309-a170-d330ac2c0ed3" DATA="eJxi4GNg+P+fgfE/EmBAsBgYGPcwYIM2QMwAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="ef4aa9ba-4673-4fd5-85cf-b5ef92be0b73" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="67b04389-06f6-4375-9aac-f3f33a65ad89" DATA="eJxiEGBg/P+fgek/EDD8xwYYGBgY9zBggzZAzAAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="ad65a255-ae8a-4a3a-a655-73fb959c2293" DATA="eJxi4Gb4jw0wMDAw7mHABm2AmAEAAAD//w=="/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="2">
+                        <EFFECT TYPE="2" ID="130" DURATION="5000">
+                            <PARAMS NB="6">
+                                <PARAM TYPE="4" ID="1">
+                                    <COLORS NB="8">
+                                        <COLOR VAL="1/0/0/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                        <COLOR VAL="1/0.498039/0/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                        <COLOR VAL="1/1/0/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                        <COLOR VAL="0/1/0/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                        <COLOR VAL="0/1/1/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                        <COLOR VAL="0/0/1/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                        <COLOR VAL="0.545098/0/1/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                        <COLOR VAL="1/0/1/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                    </COLORS>
+                                </PARAM>
+                                <PARAM TYPE="2" ID="2" VAL="0"/>
+                                <PARAM TYPE="6" ID="3" VAL="0"/>
+                                <PARAM TYPE="1" ID="10" VAL="0"/>
+                                <PARAM TYPE="0" ID="11" VAL="0"/>
+                                <PARAM TYPE="1" ID="12" VAL="1"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <BEAMS NB="21">
+                            <BEAM FIXTURE="55df6c56-d01b-455b-9e28-016c34667ac4" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="ad65a255-ae8a-4a3a-a655-73fb959c2293" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="1028d284-ee9a-4579-abe0-d3582a80526f" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="6360082c-3d91-4c0e-b052-9c41f6236d06" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="67b04389-06f6-4375-9aac-f3f33a65ad89" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="6b39d205-32d4-4393-9afc-e7ae70119632" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="8d074eb0-10b5-408d-aee3-35c4ae95ce3e" BEAMID="0" IDSELECTION="9"/>
+                            <BEAM FIXTURE="67e0f24d-e169-44ff-ab16-bce2ba9a9a66" BEAMID="0" IDSELECTION="10"/>
+                            <BEAM FIXTURE="80099d05-3738-42c1-9b83-a35739457cf3" BEAMID="0" IDSELECTION="11"/>
+                            <BEAM FIXTURE="aec3178f-c1d2-4d45-977b-f2e608710366" BEAMID="0" IDSELECTION="12"/>
+                            <BEAM FIXTURE="abb61b61-33c9-42d3-855d-3b0941c425d1" BEAMID="0" IDSELECTION="13"/>
+                            <BEAM FIXTURE="d1008c60-2962-4864-9d1c-ecfc110ce2c7" BEAMID="0" IDSELECTION="14"/>
+                            <BEAM FIXTURE="933d362d-ecd6-45a8-a9ac-ff105a794916" BEAMID="0" IDSELECTION="15"/>
+                            <BEAM FIXTURE="0b1750b0-a074-436c-80b5-b8a0a35903a0" BEAMID="0" IDSELECTION="16"/>
+                            <BEAM FIXTURE="d3076cbd-eb20-4f5f-856d-69a00fc97af3" BEAMID="0" IDSELECTION="17"/>
+                            <BEAM FIXTURE="ef4aa9ba-4673-4fd5-85cf-b5ef92be0b73" BEAMID="0" IDSELECTION="18"/>
+                            <BEAM FIXTURE="6b97ed3e-71dd-4239-b0e8-b502bd733a68" BEAMID="0" IDSELECTION="19"/>
+                            <BEAM FIXTURE="593c8fdf-a17d-433b-a915-b1376fecd41a" BEAMID="0" IDSELECTION="20"/>
+                            <BEAM FIXTURE="f0cdcff2-c5fd-4309-a170-d330ac2c0ed3" BEAMID="0" IDSELECTION="21"/>
+                        </BEAMS>
+                    </RACK>
+                    <RACK EXPAND_RACK="1" TYPE="4">
+                        <EFFECT TYPE="4" ID="223" DURATION="5000">
+                            <PARAMS NB="3">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="2">
+                                        <POINT X="0.5" Y="0.25"/>
+                                        <POINT X="0.5" Y="0.75"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.476"/>
+                                <PARAM TYPE="2" ID="3" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <BEAMS NB="2">
+                            <BEAM FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" BEAMID="0" IDSELECTION="2"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="ab3b68ee-17a0-45d4-8347-bb79e1e66f7e" NAME="Techno rave" COLOR="#fff69031" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" PHASE_IN="0" PHASE_OUT="0" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="21">
+                    <FIXTUREDATA FIXTURE="d3076cbd-eb20-4f5f-856d-69a00fc97af3" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="0b1750b0-a074-436c-80b5-b8a0a35903a0" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6b97ed3e-71dd-4239-b0e8-b502bd733a68" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6b39d205-32d4-4393-9afc-e7ae70119632" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="aec3178f-c1d2-4d45-977b-f2e608710366" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" DATA="eJxi4GNg/P+fgek/EmBAsBgYGPcwYIM2QMwAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="abb61b61-33c9-42d3-855d-3b0941c425d1" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="933d362d-ecd6-45a8-a9ac-ff105a794916" DATA="eJxi4GNg+P+fgfE/EmBAsBgYGPcwYIM2QMwAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="1028d284-ee9a-4579-abe0-d3582a80526f" DATA="eJxiEGBg+P+fgf0/EDD8xwYYGBgY9zBggzZAzAAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="593c8fdf-a17d-433b-a915-b1376fecd41a" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="67e0f24d-e169-44ff-ab16-bce2ba9a9a66" DATA="eJxiYGP4jwAMDAyMexiwQRsgZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="80099d05-3738-42c1-9b83-a35739457cf3" DATA="eJxiYGP4jwAMDAyMexiwQRsgZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6360082c-3d91-4c0e-b052-9c41f6236d06" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" DATA="eJxi4GNg+P+fgeU/EmBAsBgYGPcwYIM2QMwAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="d1008c60-2962-4864-9d1c-ecfc110ce2c7" DATA="eJxiYPoPBAwMDIx7GLBBGyBmAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="55df6c56-d01b-455b-9e28-016c34667ac4" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="8d074eb0-10b5-408d-aee3-35c4ae95ce3e" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="ef4aa9ba-4673-4fd5-85cf-b5ef92be0b73" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="67b04389-06f6-4375-9aac-f3f33a65ad89" DATA="eJxiEGBg+P+fgeU/EDD8xwYYGBgY9zBggzZAzAAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="f0cdcff2-c5fd-4309-a170-d330ac2c0ed3" DATA="eJxi4GNg+P+fgeU/EmBAsBgYGPcwYIM2QMwAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="ad65a255-ae8a-4a3a-a655-73fb959c2293" DATA="eJxi4Gb4DwEwGsJmYGBg3MMAgzYMqGwGAAAAAP//"/>
+                </FIXTUREDATAS>
+                <RACKS/>
+            </SCENE>
+        </BANK>
+        <BANK DASUID="5d6ad09c-b258-4420-be21-724455077c8b" NAME="Bank 2" COLOR="#fff69031" COLLAPSED="0" PAUSED="0" HIDDEN="0" NBSCENE="2">
+            <SCENE DASUID="36296c8e-077b-42dc-96a1-0967b0d5835f" NAME="GIG" COLOR="#ffed1552" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.41" PHASE="0" SIZE="1" PHASE_IN="0" PHASE_OUT="0" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="15">
+                    <FIXTUREDATA FIXTURE="6b39d205-32d4-4393-9afc-e7ae70119632" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="67b04389-06f6-4375-9aac-f3f33a65ad89" DATA="eJxiEGBg+P+fgfE/EDCAINN/NMDAwMBowwCCe+DQBkraMDABAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="80099d05-3738-42c1-9b83-a35739457cf3" DATA="eJxiYGP4z/AfBhgYGBhtGPagQBs4yQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="abb61b61-33c9-42d3-855d-3b0941c425d1" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="593c8fdf-a17d-433b-a915-b1376fecd41a" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" DATA="eJxi4GNg/P+fgek/EDD8h5AQGsxmYGC0YdiDAm2gpA0DEwAAAP//"/>
+                    <FIXTUREDATA FIXTURE="aec3178f-c1d2-4d45-977b-f2e608710366" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" DATA="eJxi4GNg+P+fgfE/EDD8h5AQGsxmYGC0YdiDAm2gpA0DEwAAAP//"/>
+                    <FIXTUREDATA FIXTURE="0b1750b0-a074-436c-80b5-b8a0a35903a0" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="67e0f24d-e169-44ff-ab16-bce2ba9a9a66" DATA="eJxiYGP4z/AfBhgYGBhtGPagQBs4yQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="d3076cbd-eb20-4f5f-856d-69a00fc97af3" DATA="eJxi4Gb4z/AfBBj4/iMBBgYGRhuGPVConQMiIXwQyQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="8d074eb0-10b5-408d-aee3-35c4ae95ce3e" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6360082c-3d91-4c0e-b052-9c41f6236d06" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6b97ed3e-71dd-4239-b0e8-b502bd733a68" DATA="eJxi4Gb4z/AfBBj4/iMBBgYGRhuGPVConQMiIXwQyQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="1028d284-ee9a-4579-abe0-d3582a80526f" DATA="eJxiEGBg+P+fgeU/EDCAINN/NMDAwMBowwCCe+DQBkraMDABAAAA//8="/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="4">
+                        <EFFECT TYPE="4" ID="223" DURATION="5000">
+                            <PARAMS NB="3">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="2">
+                                        <POINT X="0.5" Y="0.25"/>
+                                        <POINT X="0.5" Y="0.75"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.504"/>
+                                <PARAM TYPE="2" ID="3" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <BEAMS NB="2">
+                            <BEAM FIXTURE="1028d284-ee9a-4579-abe0-d3582a80526f" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="67b04389-06f6-4375-9aac-f3f33a65ad89" BEAMID="0" IDSELECTION="2"/>
+                        </BEAMS>
+                    </RACK>
+                    <RACK EXPAND_RACK="1" TYPE="2">
+                        <EFFECT TYPE="2" ID="130" DURATION="5000">
+                            <PARAMS NB="6">
+                                <PARAM TYPE="4" ID="1">
+                                    <COLORS NB="2">
+                                        <COLOR VAL="1/0/0/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                        <COLOR VAL="1/1/1/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                    </COLORS>
+                                </PARAM>
+                                <PARAM TYPE="2" ID="2" VAL="0"/>
+                                <PARAM TYPE="6" ID="3" VAL="0"/>
+                                <PARAM TYPE="1" ID="10" VAL="0"/>
+                                <PARAM TYPE="0" ID="11" VAL="0"/>
+                                <PARAM TYPE="1" ID="12" VAL="1"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <BEAMS NB="2">
+                            <BEAM FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" BEAMID="0" IDSELECTION="2"/>
+                        </BEAMS>
+                    </RACK>
+                    <RACK EXPAND_RACK="1" TYPE="4">
+                        <EFFECT TYPE="4" ID="221" DURATION="5000">
+                            <PARAMS NB="3">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="4">
+                                        <POINT X="0.25" Y="0.5"/>
+                                        <POINT X="0.5" Y="0.75"/>
+                                        <POINT X="0.75" Y="0.5"/>
+                                        <POINT X="0.5" Y="0.25"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.514"/>
+                                <PARAM TYPE="2" ID="3" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <BEAMS NB="2">
+                            <BEAM FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" BEAMID="0" IDSELECTION="2"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="551ed28f-799d-47e7-a865-328cfb573c2b" NAME="GIG (2)" COLOR="#ffed1552" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.41" PHASE="0" SIZE="1" PHASE_IN="0" PHASE_OUT="0" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="15">
+                    <FIXTUREDATA FIXTURE="6b39d205-32d4-4393-9afc-e7ae70119632" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="67b04389-06f6-4375-9aac-f3f33a65ad89" DATA="eJxiEGBg+P+fgfU/EDCAoMd/NMDAwMAIxAw2DHvg0AZK2jAwAQAAAP//"/>
+                    <FIXTUREDATA FIXTURE="80099d05-3738-42c1-9b83-a35739457cf3" DATA="eJxiYGP4z/AfBhgYGBhtGPagQBs4yQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="abb61b61-33c9-42d3-855d-3b0941c425d1" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="593c8fdf-a17d-433b-a915-b1376fecd41a" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" DATA="eJw0hLENACAMw1wGRi7K6fyWRojasjmUzXaA9ByAgovSqH+xGgAA//8="/>
+                    <FIXTUREDATA FIXTURE="aec3178f-c1d2-4d45-977b-f2e608710366" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" DATA="eJw0hLENACAMw1wGRi7K6fyWRojasjmUzXaA9ByAgovSqH+xGgAA//8="/>
+                    <FIXTUREDATA FIXTURE="0b1750b0-a074-436c-80b5-b8a0a35903a0" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="67e0f24d-e169-44ff-ab16-bce2ba9a9a66" DATA="eJxiYGP4z/AfBhgYGBhtGPagQBs4yQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="d3076cbd-eb20-4f5f-856d-69a00fc97af3" DATA="eJxi4Gb4z/AfBBj4/iMBBgYGRhuGPVConQMiIXwQyQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="8d074eb0-10b5-408d-aee3-35c4ae95ce3e" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6360082c-3d91-4c0e-b052-9c41f6236d06" DATA="eJxi4Gb4z/AfEzAwMDDaMOxBgTZwkgEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6b97ed3e-71dd-4239-b0e8-b502bd733a68" DATA="eJxi4Gb4z/AfBBj4/iMBBgYGRhuGPVConQMiIXwQyQAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="1028d284-ee9a-4579-abe0-d3582a80526f" DATA="eJxiEGBg+P+fgf0/EDCAoMd/NMDAwMAIxAw2DHvg0AZK2jAwAQAAAP//"/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="4">
+                        <EFFECT TYPE="4" ID="223" DURATION="5000">
+                            <PARAMS NB="3">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="2">
+                                        <POINT X="0.5" Y="0.25"/>
+                                        <POINT X="0.5" Y="0.75"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.504"/>
+                                <PARAM TYPE="2" ID="3" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <BEAMS NB="2">
+                            <BEAM FIXTURE="1028d284-ee9a-4579-abe0-d3582a80526f" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="67b04389-06f6-4375-9aac-f3f33a65ad89" BEAMID="0" IDSELECTION="2"/>
+                        </BEAMS>
+                    </RACK>
+                    <RACK EXPAND_RACK="1" TYPE="2">
+                        <EFFECT TYPE="2" ID="130" DURATION="5000">
+                            <PARAMS NB="6">
+                                <PARAM TYPE="4" ID="1">
+                                    <COLORS NB="2">
+                                        <COLOR VAL="1/0/0/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                        <COLOR VAL="1/1/1/0/0/0/0/0/1/1/1/1/0/0/0/0/0/1"/>
+                                    </COLORS>
+                                </PARAM>
+                                <PARAM TYPE="2" ID="2" VAL="0"/>
+                                <PARAM TYPE="6" ID="3" VAL="0"/>
+                                <PARAM TYPE="1" ID="10" VAL="0"/>
+                                <PARAM TYPE="0" ID="11" VAL="0"/>
+                                <PARAM TYPE="1" ID="12" VAL="1"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <BEAMS NB="2">
+                            <BEAM FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" BEAMID="0" IDSELECTION="2"/>
+                        </BEAMS>
+                    </RACK>
+                    <RACK EXPAND_RACK="1" TYPE="4">
+                        <EFFECT TYPE="4" ID="221" DURATION="5000">
+                            <PARAMS NB="3">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="4">
+                                        <POINT X="0.25" Y="0.5"/>
+                                        <POINT X="0.5" Y="0.75"/>
+                                        <POINT X="0.75" Y="0.5"/>
+                                        <POINT X="0.5" Y="0.25"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.514"/>
+                                <PARAM TYPE="2" ID="3" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <BEAMS NB="2">
+                            <BEAM FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" BEAMID="0" IDSELECTION="2"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+        </BANK>
+        <DAS_SELECTIONS SELECTED_LIVE_BANK="1">
+            <SELECTED_LIVE_SCENES DASUID="551ed28f-799d-47e7-a865-328cfb573c2b"/>
+        </DAS_SELECTIONS>
+    </SCENES>
+    <SHORTCUTS>
+        <SHORTCUT TYPE="0">
+            <EVENT DATA="f"/>
+            <ACTION TYPE="55" TARGETINDEX="-1"/>
+            <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0" XY="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="d6d0bd6d-a491-4188-bf72-7bdf0ec1752e:0"/>
+            <ACTION TYPE="55" TARGETINDEX="0"/>
+            <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="e493248d-6bd7-4cea-a56f-27caa1502951:1"/>
+            <ACTION TYPE="231" TARGET="743c58e0-fa53-4a02-9991-530461729a2f" TARGETINDEX="0"/>
+            <SETTINGS SMODE="1" CMODE="1" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="fd171925-a24d-48b9-90cc-fd04613aa6cc:0"/>
+            <ACTION TYPE="210" TARGET="925ca7ff-6c8d-440d-a0b2-3aeac57f3fd9:0">
+                <BEAMS NB="1">
+                    <BEAM FIXTURE="d1008c60-2962-4864-9d1c-ecfc110ce2c7" BEAMID="0"/>
+                </BEAMS>
+            </ACTION>
+            <SETTINGS SMODE="1" CMODE="1" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="f106965c-f366-452e-8848-ac68faa14ed1:0"/>
+            <ACTION TYPE="210" TARGET="925ca7ff-6c8d-440d-a0b2-3aeac57f3fd9:1">
+                <BEAMS NB="1">
+                    <BEAM FIXTURE="d1008c60-2962-4864-9d1c-ecfc110ce2c7" BEAMID="0"/>
+                </BEAMS>
+            </ACTION>
+            <SETTINGS SMODE="1" CMODE="1" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="b0ceb6cd-0eef-4ede-a5a2-b99a979ef020:0"/>
+            <ACTION TYPE="55" TARGETINDEX="0"/>
+            <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="f8d0f1d9-26db-4675-b0c8-3d4f67888542:0"/>
+            <ACTION TYPE="225" TARGETINDEX="-1">
+                <BEAMS NB="1">
+                    <BEAM FIXTURE="f0cdcff2-c5fd-4309-a170-d330ac2c0ed3" BEAMID="0"/>
+                </BEAMS>
+            </ACTION>
+            <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="16152974-82cd-4e3f-8f6e-d1bbe87d4554:0"/>
+            <ACTION TYPE="221" TARGETINDEX="-1">
+                <BEAMS NB="12">
+                    <BEAM FIXTURE="80099d05-3738-42c1-9b83-a35739457cf3" BEAMID="0"/>
+                    <BEAM FIXTURE="593c8fdf-a17d-433b-a915-b1376fecd41a" BEAMID="0"/>
+                    <BEAM FIXTURE="6360082c-3d91-4c0e-b052-9c41f6236d06" BEAMID="0"/>
+                    <BEAM FIXTURE="55df6c56-d01b-455b-9e28-016c34667ac4" BEAMID="0"/>
+                    <BEAM FIXTURE="ad65a255-ae8a-4a3a-a655-73fb959c2293" BEAMID="0"/>
+                    <BEAM FIXTURE="8d074eb0-10b5-408d-aee3-35c4ae95ce3e" BEAMID="0"/>
+                    <BEAM FIXTURE="67e0f24d-e169-44ff-ab16-bce2ba9a9a66" BEAMID="0"/>
+                    <BEAM FIXTURE="0b1750b0-a074-436c-80b5-b8a0a35903a0" BEAMID="0"/>
+                    <BEAM FIXTURE="6b39d205-32d4-4393-9afc-e7ae70119632" BEAMID="0"/>
+                    <BEAM FIXTURE="aec3178f-c1d2-4d45-977b-f2e608710366" BEAMID="0"/>
+                    <BEAM FIXTURE="abb61b61-33c9-42d3-855d-3b0941c425d1" BEAMID="0"/>
+                    <BEAM FIXTURE="d3076cbd-eb20-4f5f-856d-69a00fc97af3" BEAMID="0"/>
+                </BEAMS>
+            </ACTION>
+            <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="9dd7ca10-164b-4336-9e11-021eccd58a41:0"/>
+            <ACTION TYPE="221" TARGETINDEX="-1">
+                <BEAMS NB="6">
+                    <BEAM FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" BEAMID="0"/>
+                    <BEAM FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" BEAMID="0"/>
+                    <BEAM FIXTURE="6b97ed3e-71dd-4239-b0e8-b502bd733a68" BEAMID="0"/>
+                    <BEAM FIXTURE="933d362d-ecd6-45a8-a9ac-ff105a794916" BEAMID="0"/>
+                    <BEAM FIXTURE="f0cdcff2-c5fd-4309-a170-d330ac2c0ed3" BEAMID="0"/>
+                    <BEAM FIXTURE="ef4aa9ba-4673-4fd5-85cf-b5ef92be0b73" BEAMID="0"/>
+                </BEAMS>
+            </ACTION>
+            <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="9cf22a6f-e363-4bbe-82d9-c1b686a80c00:0"/>
+            <ACTION TYPE="225" TARGETINDEX="-1">
+                <BEAMS NB="12">
+                    <BEAM FIXTURE="80099d05-3738-42c1-9b83-a35739457cf3" BEAMID="0"/>
+                    <BEAM FIXTURE="593c8fdf-a17d-433b-a915-b1376fecd41a" BEAMID="0"/>
+                    <BEAM FIXTURE="6360082c-3d91-4c0e-b052-9c41f6236d06" BEAMID="0"/>
+                    <BEAM FIXTURE="55df6c56-d01b-455b-9e28-016c34667ac4" BEAMID="0"/>
+                    <BEAM FIXTURE="ad65a255-ae8a-4a3a-a655-73fb959c2293" BEAMID="0"/>
+                    <BEAM FIXTURE="8d074eb0-10b5-408d-aee3-35c4ae95ce3e" BEAMID="0"/>
+                    <BEAM FIXTURE="67e0f24d-e169-44ff-ab16-bce2ba9a9a66" BEAMID="0"/>
+                    <BEAM FIXTURE="0b1750b0-a074-436c-80b5-b8a0a35903a0" BEAMID="0"/>
+                    <BEAM FIXTURE="6b39d205-32d4-4393-9afc-e7ae70119632" BEAMID="0"/>
+                    <BEAM FIXTURE="aec3178f-c1d2-4d45-977b-f2e608710366" BEAMID="0"/>
+                    <BEAM FIXTURE="abb61b61-33c9-42d3-855d-3b0941c425d1" BEAMID="0"/>
+                    <BEAM FIXTURE="d3076cbd-eb20-4f5f-856d-69a00fc97af3" BEAMID="0"/>
+                </BEAMS>
+            </ACTION>
+            <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="a009462c-6f1f-4ce0-936c-1c922930f26c:1"/>
+            <ACTION TYPE="225" TARGETINDEX="-1">
+                <BEAMS NB="6">
+                    <BEAM FIXTURE="ad523647-b553-4100-bc6f-657bab8cd1af" BEAMID="0"/>
+                    <BEAM FIXTURE="f1d36956-987b-4aae-8a28-81a2e6957c4b" BEAMID="0"/>
+                    <BEAM FIXTURE="6b97ed3e-71dd-4239-b0e8-b502bd733a68" BEAMID="0"/>
+                    <BEAM FIXTURE="933d362d-ecd6-45a8-a9ac-ff105a794916" BEAMID="0"/>
+                    <BEAM FIXTURE="f0cdcff2-c5fd-4309-a170-d330ac2c0ed3" BEAMID="0"/>
+                    <BEAM FIXTURE="ef4aa9ba-4673-4fd5-85cf-b5ef92be0b73" BEAMID="0"/>
+                </BEAMS>
+            </ACTION>
+            <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="2">
+            <EVENT DATA="edd12720-018a-4823-84cb-c7ed0e79c535:0"/>
+            <ACTION TYPE="210" TARGET="2e8b0190-d624-11ea-8320-e1a925972789-b74dce25:11">
+                <BEAMS NB="1">
+                    <BEAM FIXTURE="67b04389-06f6-4375-9aac-f3f33a65ad89" BEAMID="0"/>
+                </BEAMS>
+            </ACTION>
+            <SETTINGS SMODE="1" CMODE="1" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="1" INV="0"/>
+        </SHORTCUT>
+    </SHORTCUTS>
+    <TOUCH>
+        <TOUCHPAGE DASUID="7d3e5165-9b43-4671-8637-cdd905f80aaf" NAME="Main" TOUCHCONTROL="38">
+            <TOUCHCONTROL DASUID="9b651822-b8e4-43b8-a2e8-4550d6eb48c2" NAME="MH TOP" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="0" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="6755b5bf-5ab1-4849-a4dc-64785adc4038" NAME="LED alt" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="0" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="e493248d-6bd7-4cea-a56f-27caa1502951" NAME="Master" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="0" GRIDPOSY="2" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="f0e16cc7-765a-40bc-b063-b5127531da88" NAME="Hazer Default" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="0" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="d8ea9e2a-c800-4f7d-a763-2129cf6e8901" NAME="Blackout" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="0" GRIDPOSY="0" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="c82869ef-0062-40a3-b709-068014802697" NAME="Release all" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="10" GRIDPOSY="2" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="fd171925-a24d-48b9-90cc-fd04613aa6cc" NAME="Smoke" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="12" GRIDPOSY="1" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="f106965c-f366-452e-8848-ac68faa14ed1" NAME="Fan" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="13" GRIDPOSY="1" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="c46ba462-a800-4062-805b-d7ef2cecdeb0" NAME="Flash" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="12" GRIDPOSY="5" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="d66129f9-ab3b-467e-84d4-7c45b1012267" NAME="Flash MH Top" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="2" GRIDPOSY="5" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="05972c13-c014-46cb-9205-d7b23ecb1969" NAME="Flash MH Bottom" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="4" GRIDPOSY="5" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="16f3f92f-8644-4d4b-be16-33c7fb6438eb" NAME="Flash LEDs" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="6" GRIDPOSY="5" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="b0ceb6cd-0eef-4ede-a5a2-b99a979ef020" NAME="Tap Tempo" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="10" GRIDPOSY="0" ICONPATH=":/Icons/HandOpen" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="6b7ea92e-cebc-406b-b487-0eb27f103678" NAME="Shutter" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="7" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="9cb209cd-aa48-4a78-a612-05079a8785b3" NAME="MH TOP" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="2" GRIDPOSY="1" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="bf816e94-8117-4045-9942-6966c7c2c7b1" NAME="MH back" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="3" GRIDPOSY="1" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="896fbaf2-c724-4312-8dea-dae0b5c6b5aa" NAME="LED alt" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="6" GRIDPOSY="1" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="bce6555d-bfd5-4730-b5e9-07a1b169ef7b" NAME="Flashs" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="6" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="88f83afa-eb45-4ae8-b084-478b5f76ab37" NAME="MHdown" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="0" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="fa1f776c-9d30-4ccb-a4df-eec87dfc694e" NAME="MH back" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="3" GRIDPOSY="0" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="da966b6f-cb3d-4d0c-a508-25b241e7c7b7" NAME="MHdown" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="4" GRIDPOSY="1" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="7b4f4848-86de-42cd-848d-bbb56a8a4b5f" NAME="LEDs sides" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="7" GRIDPOSY="0" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="9bec6e8b-b320-4c8b-aa47-83a66c817b5a" NAME="Headlight" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="9" GRIDPOSY="1" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="e2a1ad04-0fa4-48e7-be79-c623bc853ed1" NAME="LED Top Head" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="9" GRIDPOSY="0" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="5caff2b4-e38e-428a-bcd4-a1c648115698" NAME="Vorhang" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="0" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="57ea0a11-1efa-4ac3-bd48-8b254ac7465d" NAME="Sides" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="7" GRIDPOSY="1" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="261c6560-669a-482c-9814-59816dc4b198" NAME="Vorhang" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="8" GRIDPOSY="1" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="25a6d5ec-de4b-42a3-851f-179bbe6f49aa" NAME="Spots" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="5" GRIDPOSY="1" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="d5d61086-cd8e-4694-a569-5a8481e427e1" NAME="Spots" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="5" GRIDPOSY="0" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="82274975-f9b6-4db4-a85b-b04afe1f7770" NAME="MH TOP" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="7" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="992d898b-29ae-4cb2-902d-07b12c2045a0" NAME="MH back" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="3" GRIDPOSY="7" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="0c246edb-ce8f-4dfb-8ca6-b5d727722778" NAME="MH down" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="7" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="33077c21-f1f6-47e4-8419-2bdf41bc0012" NAME="LEDs alt" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="7" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="3ef9c0e5-4b12-443a-97bb-db6491091e68" NAME="LEDs neu" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="7" GRIDPOSY="7" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="5a40d695-8136-4140-b95b-f14d504ed269" NAME="Spots" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="5" GRIDPOSY="7" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="2f04dbaf-a278-41e3-921c-4659ae2b0035" NAME="Flash MH bottom orange" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="8" GRIDPOSY="5" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="f3f7c427-f978-4eec-8434-a4ee27affe26" NAME="LED tops flash" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="10" GRIDPOSY="5" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="c51fbfa1-6e3e-4327-b261-548005316469" NAME="Leds sides ww" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="4" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+        </TOUCHPAGE>
+        <TOUCHPAGE DASUID="2484ac8d-9456-42f3-9588-7d3bd7349c09" NAME="Farben + Effekte" TOUCHCONTROL="49">
+            <TOUCHCONTROL DASUID="527e6257-d24d-4e1d-8281-73c3235a6d4c" NAME="Farbeffekte" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="0" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="ab989c63-267d-42f9-be37-ce46d3e75196" NAME="Rainbow" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="1" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="175fb898-40f6-48c2-ab7c-556edefd5467" NAME="Rainbow Phase" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="2" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="30842f54-541e-4de6-8aa4-d0a41e1646ed" NAME="Eisfeuer" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="3" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="5d6f599c-9e8f-44f6-aa7e-7821d074395e" NAME="Dimmeffekte" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="6" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="f408cc92-1c39-40e4-b31d-9357528fc3ba" NAME="Perlin" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="6" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="cea7a91c-da6d-4fce-95c5-69ed203882c0" NAME="Perlin Soft" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="6" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="ed69c2d3-c4b5-4086-b023-ef467a67076d" NAME="Sparkle" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="6" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="050a4b89-b98f-4031-a145-75fc8ff3d3d4" NAME="Plasma" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="6" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="29856f39-4059-456d-ae28-2c7e7e4680dd" NAME="Switcher" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="7" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="d1324743-6b45-49a6-9e7e-869d97344d27" NAME="Switcher TOP" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="8" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="a84814be-156b-4436-854d-b3d6c97e8e3e" NAME="Perlin TOP" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="8" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="95f76485-c7e6-40f2-86b9-31335d0e4cae" NAME="Aqua" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="4" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="64dad0ef-33a3-4ddc-9340-98950b3a378a" NAME="Gelb rot" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="3" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="54f435b1-e529-4a9a-ba88-e5dfc89c7956" NAME="Gelb lila" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="2" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="6f713e51-f324-440b-bd8c-f89ec4d1e844" NAME="Feuer" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="4" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="009cb474-abc9-45e8-8c12-6662a101590c" NAME="Orange Blau" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="1" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="469611d8-dd37-4552-9bea-b8edd1dc6889" NAME="Sparkle stars" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="6" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="0071c935-e1c5-43c6-adae-b93bfde06c6a" NAME="Sparkle withe" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="7" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="c2355806-9b08-43c0-8bdf-3c0e5c1dde9c" NAME="MH bot key reinglim" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="8" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="e8bdcac8-014a-48b6-a74c-bae44084f40d" NAME="Knight Rider all" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="5" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="62fb5105-53cb-42e9-b4e6-18c10ad2ec85" NAME="Ramp bottom" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="7" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="0c19d57f-154e-4300-9c74-b5cfaed14b01" NAME="Color Wheel" TYPE="7" GRIDWIDTH="4" GRIDHEIGHT="4" GRIDPOSX="4" GRIDPOSY="2" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="16152974-82cd-4e3f-8f6e-d1bbe87d4554" NAME="Color Wheel" TYPE="7" GRIDWIDTH="4" GRIDHEIGHT="4" GRIDPOSX="0" GRIDPOSY="2" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="9dd7ca10-164b-4336-9e11-021eccd58a41" NAME="Color Wheel" TYPE="7" GRIDWIDTH="4" GRIDHEIGHT="4" GRIDPOSX="8" GRIDPOSY="2" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="9cf22a6f-e363-4bbe-82d9-c1b686a80c00" NAME="ON/OFF COLOR" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="2" GRIDPOSY="0" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="f89f8821-1074-4d46-89d1-b600f79fb5ad" NAME="ON/OFF COLOR" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="6" GRIDPOSY="0" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="a009462c-6f1f-4ce0-936c-1c922930f26c" NAME="ON/OFF COLOR" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="10" GRIDPOSY="0" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="39e018b7-f3ba-437f-bb2d-e53edca5225f" NAME="1 - Tops" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="8" GRIDPOSY="0" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="66993dd4-b87c-4616-9a4b-2222757b8bdd" NAME="2 - LEDs" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="0" GRIDPOSY="0" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="cb18aaf8-c8a4-422d-b1e1-cda3965d1080" NAME="3 - MH unten" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="4" GRIDPOSY="0" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="78377e2a-fa6c-4845-b1b5-01a684318ab4" NAME="Rainbow side" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="1" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="2d8f4180-37ab-403e-9fad-c3e3d0edcdff" NAME="Side Sweep" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="2" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="05bacf3d-ebe2-4092-933f-74bbd554bf81" NAME="Side Red falling" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="3" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="6ccf478f-c9aa-4d4a-abb2-5b2dcbb18649" NAME="Lila Grün jumps leds" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="6" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="cfe2c23f-37f1-49e9-b798-e6d14d8f890c" NAME="Leds sides blue white" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="4" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="ab8dee6a-0ffc-44e5-a9b7-5cdbd0f45dcb" NAME="Leds sides blue lila" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="5" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="06c8c0ba-7093-4dc5-bee5-ddf015c4a423" NAME="Leds sides warm" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="6" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="b0be40fe-4b16-4a44-98e0-5eb21a007727" NAME="Leds sides pastel" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="7" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="5ff02f56-b115-4b58-b421-4262866bd618" NAME="Switcher soft" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="7" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="adf9f143-2169-430b-ba5c-45e69efda1ba" NAME="LEDs atmen" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="9" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="298ea870-b818-4dbe-9ee9-e9c5109ebc98" NAME="LEDs Night Rider" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="9" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="8312d876-e161-4c94-8b40-56c0b5ec526e" NAME="Side tropfen" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="9" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="4bb7f4e0-2435-4e22-953c-a404ae1b80b1" NAME="Chaser top (2)" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="8" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="dd8c306a-83f7-45bd-84ee-1ba39ea8b4fd" NAME="tunnel" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="9" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="7067790c-f6c4-4335-bfcb-9f7ae61c70ee" NAME="Dim all crazy" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="7" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="2e9a0d5d-fd24-4655-9528-ffd864889afc" NAME="Spiral" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="7" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="1205e306-0bfb-4e1d-a0a2-95d6777bc75b" NAME="LEDs SIDES" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="0" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="c0a3864f-d41f-488e-bd46-d809dc8b7a38" NAME="Group Dim FX" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="8" ICONPATH="" PRESETICON="0"/>
+        </TOUCHPAGE>
+        <TOUCHPAGE DASUID="943109c1-2a9a-4c29-a412-9f3e17e5a39a" NAME="MH Movements" TOUCHCONTROL="73">
+            <TOUCHCONTROL DASUID="063093c3-8773-4a5b-8933-1de0d153c070" NAME="Cross Stage" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="3" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="fbc1d9ba-2768-472e-973c-d3980cc7be7d" NAME="Frontbühne" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="4" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="67cf38d6-781c-43de-ba11-e8d9020cb338" NAME="Aufgänge" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="1" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="a0c0c575-afe3-4980-a5b4-32b314242c1e" NAME="Drummer TOP" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="2" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="a6a055de-3609-415d-8c58-74c2b36dade1" NAME="1 Spot" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="5" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="3a7f1746-99f6-4787-a2f5-a4d5c45aefc2" NAME="2 Spots" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="6" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="ce93d54b-2045-41ba-8255-e95d4f9fa6d1" NAME="Spot Piano" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="7" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="cac480ba-80b6-4752-8af1-b96acd1ea85c" NAME="Circle Low" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="4" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="b8291d2d-5b0c-41f7-b728-01b3e264de16" NAME="Circle Low Phase" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="5" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="da243f6a-e981-4e13-b236-fb9c9ca6b455" NAME="Pendeln Phase" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="1" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="4e6f13fc-cb39-4d52-8b51-27ef18be79d1" NAME="Pendeln Side (Pup)" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="2" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="fa3e923b-3ed4-4a40-9bf1-6637475a9f89" NAME="Pup Pendeln Side Phase" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="3" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="b3f13a1b-3443-478d-a642-64fea787a31a" NAME="Circle Phas Dach+floor" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="18" GRIDPOSY="3" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="a68c1851-6e5b-48d3-a0b6-be0c1e39bb43" NAME="Release Positionen" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="0" GRIDPOSY="6" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="38918398-5464-406a-bc85-81d3af985cb5" NAME="Release Movements" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="0" GRIDPOSY="8" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="71cb4fa5-d980-43be-9b0e-b40d0e54436e" NAME="MH Top Position" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="0" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="a25736b2-5d6b-47ff-8672-792f6fc02514" NAME="Movements" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="0" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="61fe8006-cc5e-40c7-a16d-a8a4ab71c050" NAME="MH back Position" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="0" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="e45a9a2f-5d71-45da-9bf4-97d19abea2b0" NAME="MH bottom move" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="18" GRIDPOSY="0" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="160a7c00-0f78-42b1-a700-2c24d952021b" NAME="MH side Position" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="0" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="680a0085-d275-43ab-937d-69ef84e578b0" NAME="Movements" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="5" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="d6d0bd6d-a491-4188-bf72-7bdf0ec1752e" NAME="Tap Tempo" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="18" GRIDPOSY="8" ICONPATH=":/Icons/HandOpen" PRESETICON="0" FLASHMODE="1"/>
+            <TOUCHCONTROL DASUID="7756884b-d52a-478f-9ca9-77283670357e" NAME="MID Switch" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="6" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="e22fce7c-2dd8-4f4f-b4ed-aaab03738095" NAME="Fly out Bottom" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="18" GRIDPOSY="4" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="a03c38e2-4fea-4c00-bccb-4626791c8711" NAME="Fly out Bottom phase" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="18" GRIDPOSY="5" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="ac883e05-8496-4936-95bc-b544f9cdd868" NAME="circle vorhang tops" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="7" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="bdfa8ba9-aa6a-4e2b-b9c3-d5f05a28106c" NAME="circle phase dach top" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="8" CONTROLCOLOR="#b3d233" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="c9526f5c-56f6-4a18-aff2-60d5e62d43c2" NAME="back wand" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="1" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="a5b1a82f-6665-40d5-9b9a-e5c90f22c210" NAME="back floor" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="2" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="34636724-acb5-4c6e-9b4c-f9b41334196e" NAME="back Aula seite" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="3" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="1480db11-939b-4047-b413-98a5051870d5" NAME="back to stage" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="4" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="1eb2af3e-dc79-4bc5-bc5a-ab098ca14878" NAME="Side aula seite" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="1" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="8cf5ca99-0d61-44e5-9c44-4228a44b9b58" NAME="Side Vorhang Side" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="2" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="edc147da-07d0-4f8c-a121-42fdb55c6a2c" NAME="Side Vorhang back" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="3" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="f41fd4f2-9495-42d9-919e-c427bd1c9c4e" NAME="Dach" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="1" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="4e9058b0-4a7c-4279-8393-fc69509d9adf" NAME="Bottom X" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="2" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="aad67ee6-b845-4a82-a370-4eb24356b70d" NAME="Bottom Pub" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="3" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="545dee81-0727-4963-8b3f-defcd66363cc" NAME="Bottom Pub spread" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="4" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="bc89f35f-668b-498c-b2c0-edecd9f6f094" NAME="Spot Front Stage" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="1" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="3fdbafc9-c1aa-4e7e-aef5-9e10de4cc481" NAME="Spot cross" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="2" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="83a253fc-64ee-440d-a475-af08410556d3" NAME="Spot Centre Front" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="3" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="7dd38e78-8076-4245-88f9-5b6042138b5a" NAME="Spot Centre back" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="4" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="9d1efdc1-9001-46b1-8c5f-9e98f7a5f0cc" NAME="Spots gang" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="5" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="76e5895a-167d-48bd-b8b1-62ec95b5dcd6" NAME="all centre gang" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="1" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="018f6246-bc33-4f27-80c3-fccacf3c49b7" NAME="Spot Position" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="8" GRIDPOSY="0" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="15edb1a1-3fb8-4cfa-bffe-7e6e6e1e2479" NAME="MH bottom Pos" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="16" GRIDPOSY="0" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="cd1bdfa3-4adb-4732-af1d-d35e62176823" NAME="Fly out" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="1" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="35369aa3-f732-4a82-b7c6-f37114984695" NAME="Fly out Phase" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="2" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="7328c1e8-01f2-4652-a0f2-db8886ab30d2" NAME="Fly in once" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="3" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="87907c1c-8dec-4bd4-9f44-fce95f5d8c39" NAME="back Circle Phase Dach" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="12" GRIDPOSY="6" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="d547cf4e-93d0-4c65-8997-030989c542bc" NAME="Line side-side" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="18" GRIDPOSY="1" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="66118dcc-3821-4b05-8e2a-c801e20fb6b4" NAME="Line Phase side-side" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="18" GRIDPOSY="2" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="1f26f836-ee92-4cdf-8b76-9b3ee24ee16a" NAME="Spots Circle Low" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="1" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="7c82d8e5-7e6e-48e3-a7e2-4b3c90b8b916" NAME="Spots Line Side" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="2" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="c7f3a81d-f782-43f6-817e-5d69773ca5d5" NAME="Spots Line fr- back" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="3" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="60debae4-cb8d-46fc-84f3-f44d2c4d29c4" NAME="Spots Circle Wand" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="4" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="806238b0-2249-4eb1-b675-d4411b0cf570" NAME="TOPs Pub" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="4" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="e82e061f-7eea-4b89-a187-977842217945" NAME="TOPs Pub Dim" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="5" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="943f4606-3c9b-44ba-b446-bac987142be9" NAME="kreisel floor" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="2" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="48642b2b-6ba6-4429-90d6-21c046cdcea5" NAME="Pendeln floor" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="3" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="ceff0282-d864-4883-94a0-a6e5788e7a90" NAME="Spot Movement" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="10" GRIDPOSY="0" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="8ac0c3ec-5831-4021-aa00-cbc79b2d4781" NAME="Spots+Tops Move" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="0" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="695fd01b-b6de-4dda-b6d8-6c86f702f0fb" NAME="Top+Spots+back" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="0" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="26d8fbfa-6f3f-4ae8-abca-5c72b479f1c2" NAME="" TYPE="1" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="2" GRIDPOSY="8" ICONPATH="C:/Users/marco/Pictures/Screenshots/Screenshot 2026-01-15 202554.png" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="ee871890-2c06-4cd0-bee1-2f7898633b72" NAME="" TYPE="1" GRIDWIDTH="2" GRIDHEIGHT="3" GRIDPOSX="6" GRIDPOSY="7" ICONPATH="C:/Users/marco/Pictures/Screenshots/Screenshot 2026-01-15 202610.png" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="4d79e0c7-afb6-4bd5-8f3e-f17ea48aa23e" NAME="" TYPE="1" GRIDWIDTH="2" GRIDHEIGHT="2" GRIDPOSX="0" GRIDPOSY="4" ICONPATH="C:/Users/marco/Pictures/Screenshots/Screenshot 2026-01-15 202626.png" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="2a268061-7200-460d-90f9-d84dbab51e4f" NAME="" TYPE="1" GRIDWIDTH="2" GRIDHEIGHT="3" GRIDPOSX="16" GRIDPOSY="7" ICONPATH="C:/Users/marco/Pictures/Screenshots/Screenshot 2026-01-15 202644.png" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="f93120a7-ced3-40a5-8a38-c905e5de00a0" NAME="" TYPE="1" GRIDWIDTH="2" GRIDHEIGHT="3" GRIDPOSX="14" GRIDPOSY="7" ICONPATH="C:/Users/marco/Pictures/Screenshots/Screenshot 2026-01-15 202702.png" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="3cb9bf83-d10d-4ac6-a7fd-50c6667766d7" NAME="" TYPE="1" GRIDWIDTH="2" GRIDHEIGHT="3" GRIDPOSX="8" GRIDPOSY="7" ICONPATH="C:/Users/marco/Pictures/Screenshots/Screenshot 2026-01-15 202952.png" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="27ec1920-7e39-4182-853b-134af122e7cb" NAME="" TYPE="1" GRIDWIDTH="2" GRIDHEIGHT="3" GRIDPOSX="12" GRIDPOSY="7" ICONPATH="C:/Users/marco/Pictures/Screenshots/Screenshot 2026-01-15 203218.png" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="44d6c110-071e-46a2-9b67-650bbc1be56b" NAME="Circle Dach down" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="6" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="8b7fc67c-69a7-4715-b8cc-deb769504eda" NAME="Movements" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="14" GRIDPOSY="5" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="edd12720-018a-4823-84cb-c7ed0e79c535" NAME="Focus" TYPE="3" GRIDWIDTH="1" GRIDHEIGHT="4" GRIDPOSX="10" GRIDPOSY="5" ICONPATH="" PRESETICON="0"/>
+        </TOUCHPAGE>
+        <TOUCHPAGE DASUID="5179d187-fbfe-427d-89f0-eb7d5680a23d" NAME="Page 4" TOUCHCONTROL="44">
+            <TOUCHCONTROL DASUID="6d0abfbe-aeb7-423f-860b-0f00d2520f12" NAME="Locked LED Farben" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="0" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="f04f4c20-1e40-4236-b98f-3744d43c5c13" NAME="Rot" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="1" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="301b69af-8977-4fae-8a6b-8a587d3e49e7" NAME="Türkis" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="1" GRIDPOSY="1" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="2bf692da-bc91-4fbd-8b66-8742ecafc139" NAME="Rot" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="1" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="b3121eeb-85c1-4482-954c-678ae74e1f4b" NAME="Farben" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="0" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="f3c56db2-e199-49fd-ad5e-04c991ad09ae" NAME="Grün" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="2" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="7d9a18db-6e11-450f-9266-86ad56308412" NAME="Grün" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="2" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="dc98f51b-5ba5-4ca9-9894-ee2d476bfc71" NAME="Pink" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="1" GRIDPOSY="2" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="801e4078-f61d-4765-b8d8-40ce46a557da" NAME="Türkis" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="3" GRIDPOSY="1" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="7aec0ff6-ce77-443a-84c7-3b193d05bd9f" NAME="Pink" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="3" GRIDPOSY="2" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="bcdad95a-46aa-4cb9-b86d-915a4f4b74f9" NAME="Rot" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="1" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="404b83a1-bd20-4c17-87fd-8965220a7476" NAME="Grün" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="2" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="1612e490-6048-406f-984d-4bf543738565" NAME="Farben MH Top" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="0" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="c482ceba-af80-4fbd-950d-8f4329148b91" NAME="Blau" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="3" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="1861750a-9787-4825-ab85-527444bce3e1" NAME="Blau" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="3" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="19d112ae-5d30-4506-8f50-bf1f20e452f3" NAME="Gelb" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="1" GRIDPOSY="3" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="6be9fdc7-263c-4048-bf92-6792fcb8717e" NAME="Blau" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="3" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="566194ed-0754-4fa1-af0b-e8d03a0e4707" NAME="Türkis" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="5" GRIDPOSY="1" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="faaa36ff-821d-4eca-9cfa-e8deaacb4bb1" NAME="Pink" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="5" GRIDPOSY="2" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="4f6b1d71-f599-463d-bad3-b0182c38f8cd" NAME="Lila" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="4" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="e58b32a9-8d9a-4112-bb13-e3273a57dd42" NAME="Lila" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="4" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="ad8387e2-31d8-49b5-96bb-7e6e4ce4cce1" NAME="Orange" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="1" GRIDPOSY="4" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="d14d2f6c-bf55-40ef-9640-12aacb35631c" NAME="Lila" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="4" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="f97e55a5-8af7-4a57-aa7a-5faa5d11b578" NAME="Rot" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="1" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="617091e0-2f04-46dd-b0c2-243eae1f1f69" NAME="Grün" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="2" CONTROLCOLOR="#009f81" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="1928034b-e776-42e6-9053-00730ef28353" NAME="Blau" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="3" CONTROLCOLOR="#077cc1" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="1a4f4d5f-9349-48ef-8931-8e53ad698917" NAME="Lila" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="4" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="38f66b11-5123-4a07-b2f7-7abd0585fb2b" NAME="Farben MH Down" TYPE="0" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="0" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0"/>
+            <TOUCHCONTROL DASUID="bba4fb41-06e7-4ecb-bd81-e6350f809ba1" NAME="Warmweiß" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="5" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="87f98837-3b76-4623-be08-8dc4019d3549" NAME="Warmweiß" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="5" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="b4fde81f-2aab-4f64-b7ec-71db98a39fb0" NAME="Warmweiß" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="5" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="59bea776-ecd4-4122-b5ed-a489cd7c94b8" NAME="Warmweiß" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="5" CONTROLCOLOR="#ffffff" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="f8d0f1d9-26db-4675-b0c8-3d4f67888542" NAME="ON/OFF COLOR" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="1" GRIDPOSY="5" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="3afa8d61-e318-423d-81fc-0e7694305246" NAME="Türkis" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="7" GRIDPOSY="1" CONTROLCOLOR="#0cbccd" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="37c04886-3cba-4e50-beeb-1721110f4c6a" NAME="Pink" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="7" GRIDPOSY="2" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="6a541c9b-6c83-474b-932f-3691568963f3" NAME="Gelb" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="6" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="249272ec-282b-42b0-a0da-842daeb5f9ff" NAME="Rot - Grün" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="6" CONTROLCOLOR="#ed1552" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="aa41de4a-b9f6-40c1-a202-757942abe345" NAME="Gelb" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="6" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="026258c1-541f-4257-9bfd-b1b38af7b35c" NAME="Gelb" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="6" CONTROLCOLOR="#ffcf08" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="0f88a03d-d069-4ba3-ba39-d770e9c2b8a4" NAME="Orange" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="2" GRIDPOSY="7" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="54214af4-2639-433d-a087-c2182cf3c2c6" NAME="Pink - Blau" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="7" CONTROLCOLOR="#d7549f" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="51ecdae0-205a-4a3c-97c1-7da2bd2d8acf" NAME="Orange" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="4" GRIDPOSY="7" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="977428a4-3049-43ef-9464-61b58a55a0ca" NAME="Orange" TYPE="2" GRIDWIDTH="1" GRIDHEIGHT="1" GRIDPOSX="6" GRIDPOSY="7" CONTROLCOLOR="#f69031" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+            <TOUCHCONTROL DASUID="dbf748d9-2c64-425a-9ab3-83d74a139f2a" NAME="Lila - Gelb" TYPE="2" GRIDWIDTH="2" GRIDHEIGHT="1" GRIDPOSX="0" GRIDPOSY="8" CONTROLCOLOR="#855fa8" ICONPATH="" PRESETICON="0" FLASHMODE="0"/>
+        </TOUCHPAGE>
+    </TOUCH>
+    <DEVICES>
+        <DASTLDEVICE DASTLNAME="DVC GOLD" DASTLACTIVE="TRUE" DASTLCURRENTIDTYPE="0" DASTLBROADCAST="FALSE" DASTLZONEMERGETYPE="TRUE" DASBLACKOUT="TRUE" VERSION="-1" TYPE="0" DASSERIAL="1004736" ADDRESS="">
+            <DASTLUNIVERSES DASTLNB="4">
+                <DASTLUNIVERSE DASTLTYPE="1" DASTLINDEX="0" CANBEINPUT="TRUE" DASTLTARGET="0"/>
+                <DASTLUNIVERSE DASTLTYPE="1" DASTLINDEX="1" CANBEINPUT="TRUE" DASTLTARGET="1"/>
+                <DASTLUNIVERSE DASTLTYPE="1" DASTLINDEX="2" CANBEINPUT="TRUE" DASTLTARGET="2"/>
+                <DASTLUNIVERSE DASTLTYPE="1" DASTLINDEX="3" CANBEINPUT="TRUE" DASTLTARGET="3"/>
+            </DASTLUNIVERSES>
+            <DASZONES DASTLNB="0"/>
+        </DASTLDEVICE>
+    </DEVICES>
+</DLMFILE>
