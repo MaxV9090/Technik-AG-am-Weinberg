@@ -1,36 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Technik AG am Weinberg</title>
 
     <style>
-      body {
-   margin: 0;
-  font-family: Arial, sans-serif;
 
-  background-image: url("hintergrund.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+      /* =========================
+         GRUNDLAYOUT
+         ========================= */
 
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+      html {
+        scroll-behavior: smooth;
       }
 
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+
+        /* Hintergrundbild */
+        background-image: url("hintergrund.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+        min-height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+
+        color: white;
+      }
+
+
+      /* =========================
+         KOPFZEILE
+         ========================= */
+
       header {
-        background-color: #333;
+        background-color: rgba(0, 0, 0, 0.85);
         color: white;
         padding: 20px;
         text-align: center;
       }
 
+      header h1 {
+        margin: 0;
+      }
+
+
+      /* =========================
+         NAVIGATION
+         ========================= */
+
       nav {
-        background-color: #555;
+        background-color: rgba(0, 0, 0, 0.85);
         padding: 15px;
+
         display: flex;
         gap: 20px;
+
+        justify-content: center;
       }
 
       nav a {
@@ -43,17 +76,62 @@
         text-decoration: underline;
       }
 
+
+      /* =========================
+         SEITEN / INHALT
+         ========================= */
+
       .page {
         display: none;
+
+        /*
+         Schwarzer Kasten hinter dem Text
+         0.78 = leicht durchsichtig
+        */
+        background-color: rgba(0, 0, 0, 0.78);
+
+        color: white;
+
         padding: 40px;
+
+        margin: 30px;
+
+        border-radius: 15px;
+
+        /*
+         Mindesthöhe sorgt dafür,
+         dass das Impressum weiter unten ist
+        */
+        min-height: 500px;
+
+        box-sizing: border-box;
       }
 
       .active {
         display: block;
       }
 
+      .page h2 {
+        color: white;
+      }
+
+      .page p {
+        color: white;
+        line-height: 1.5;
+      }
+
+      .page li {
+        color: white;
+        margin-bottom: 10px;
+      }
+
+
+      /* =========================
+         DOWNLOAD-LINKS
+         ========================= */
+
       a.download {
-        color: #007BFF;
+        color: white;
         text-decoration: none;
         font-weight: bold;
       }
@@ -62,45 +140,137 @@
         text-decoration: underline;
       }
 
+
+      /* =========================
+         IMPRESSUM
+         ========================= */
+
       footer {
-        background-color: #333;
+        background-color: rgba(0, 0, 0, 0.90);
+
         color: white;
+
         text-align: center;
-        padding: 20px;
-        margin-top: auto;
+
+        padding: 30px;
+
+        /*
+         Abstand zum Inhalt,
+         damit man nach unten scrollen muss
+        */
+        margin-top: 100px;
+      }
+
+      footer h3 {
+        color: white;
+        margin-top: 0;
+      }
+
+      footer p {
+        color: white;
+      }
+
+
+      /* =========================
+         HANDY
+         ========================= */
+
+      @media (max-width: 600px) {
+
+        header h1 {
+          font-size: 24px;
+        }
+
+        nav {
+          gap: 15px;
+          flex-wrap: wrap;
+        }
+
+        .page {
+          margin: 15px;
+          padding: 25px;
+        }
+
+        footer {
+          padding: 25px 15px;
+        }
+
       }
 
     </style>
   </head>
 
+
   <body>
+
+
+    <!-- =========================
+         KOPFZEILE
+         ========================= -->
 
     <header>
       <h1>Technik AG am Weinberg</h1>
     </header>
 
+
+    <!-- =========================
+         NAVIGATION
+         ========================= -->
+
     <nav>
-      <a href="#" onclick="showPage('personen')">Veranstaltungen</a>
-      <a href="#" onclick="showPage('dateien')">Dateien</a>
-      <a href="#" onclick="showPage('drehbuch')">Mitglieder</a>
+
+      <a href="#" onclick="showPage('personen'); return false;">
+        Veranstaltungen
+      </a>
+
+      <a href="#" onclick="showPage('dateien'); return false;">
+        Dateien
+      </a>
+
+      <a href="#" onclick="showPage('drehbuch'); return false;">
+        Mitglieder
+      </a>
+
     </nav>
 
-    <!-- VERANSTALTUNGEN -->
+
+    <!-- =========================
+         VERANSTALTUNGEN
+         ========================= -->
+
     <div id="personen" class="page active">
+
       <h2>Veranstaltungen</h2>
 
       <ul>
-        <li>Informationsveranstaltung 31.08.2026 18:00</li>
-        <li>Informationsveranstaltung 01.09.2026 18:00</li>
-        <li>Informationsveranstaltung 01.09.2026 19:00</li>
+
+        <li>
+          Informationsveranstaltung 31.08.2026 18:00
+        </li>
+
+        <li>
+          Informationsveranstaltung 01.09.2026 18:00
+        </li>
+
+        <li>
+          Informationsveranstaltung 01.09.2026 19:00
+        </li>
+
       </ul>
+
     </div>
 
-    <!-- DATEIEN -->
+
+    <!-- =========================
+         DATEIEN
+         ========================= -->
+
     <div id="dateien" class="page">
+
       <h2>Dateien</h2>
 
       <ul>
+
         <li>
           <a class="download" href="drehbuch1.jpeg">
             Drehbuch1 herunterladen
@@ -108,66 +278,90 @@
         </li>
 
         <li>
-         <a class="download" href="drohnenaufnahme1.mp4">
-            Drohnenaufnahme1 herunterladen 
-           </a>
+          <a class="download" href="drohnenaufnahme1.mp4">
+            Drohnenaufnahme1 herunterladen
+          </a>
         </li>
+
       </ul>
+
     </div>
 
-    <!-- DREHBUCH -->
+
+    <!-- =========================
+         DREHBUCH
+         ========================= -->
+
     <div id="drehbuch" class="page">
+
       <h2>Drehbuch</h2>
 
       <p>
-        1.	Szene Einstellung 1:<br>
-Nahaufnahme der Skateboards (Kamera)<br>
-Song: Teenage Dirtbag<br>
-Ästhetik: Sonnenuntergangsstimmung<br>
-Rolle: Sarah & Juna<br> <br> 
 
-  1. Szene Einstellung 2:<br> 
-Frontal v. unten weg Richtung o. (Drohne)<br>
-Song: Teenage Dirtbag<br>
-Ästhetik: Sonnenuntergangsstimmung<br>
-Rolle: Sarah & Juna<br> <br>
- 
- 1.Szene Einstellung 3:<br>
-Vom Stromkasten aus Richtung Straße<br>
-Song: Teenage Dirtbag<br>
-Ästhetik: Sonnenuntergangsstimmung<br>
-Rolle: Sarah & Juna<br>
-Handlung: -Sarah und Juna fahren Hügel runter<br>
--Am Bordstein hochtreten und zum<br>
-Stromkasten laufen<br> <br>
-  
-1.Szene Einstellung 4:<br>
-Von RM Richtung Stromkasten<br>
-Song: Teenage Dirtbag<br>
-Ästhetik: Sonnenuntergangsstimmung<br>
-Rolle: Sarah, Juna & Lilly Handlung: -Lilly sitz auf dem Stromkasten<br>
--Juna und Sarah legen Boards ab und klettern hoch.<br> <br>
- 
- 1.Szene Einstellung 5:<br>
-Nahaufnahme von Figuren<br>
-Song: Teenage Dirtbag<br>
-Ästhetik: Sonnenuntergangsstimmung<br>
-Rolle: Sarah, Juna & Lilly Handlung: -Sarah holt Bier aus Rucksack<br>
--Anderen quatschen<br> <br>
+        1. Szene Einstellung 1:<br>
+        Nahaufnahme der Skateboards (Kamera)<br>
+        Song: Teenage Dirtbag<br>
+        Ästhetik: Sonnenuntergangsstimmung<br>
+        Rolle: Sarah & Juna<br>
+        <br>
 
+        1. Szene Einstellung 2:<br>
+        Frontal v. unten weg Richtung o. (Drohne)<br>
+        Song: Teenage Dirtbag<br>
+        Ästhetik: Sonnenuntergangsstimmung<br>
+        Rolle: Sarah & Juna<br>
+        <br>
 
-Dialog:<br>
-Lilly: Oh, Hi Leute!<br>
-Juna: Hey Lilly. Sarah hat Suff dabei.<br>
-Klettern hoch Sarah: Voila! (grinsend)<br>
-Juna: Ach Mensch, Sarah warum immer so viel. Ich dachte du hast ein bisschen mit.<br>
-Sarah: Entspann dich.<br>
+        1.Szene Einstellung 3:<br>
+        Vom Stromkasten aus Richtung Straße<br>
+        Song: Teenage Dirtbag<br>
+        Ästhetik: Sonnenuntergangsstimmung<br>
+        Rolle: Sarah & Juna<br>
+        Handlung: -Sarah und Juna fahren Hügel runter<br>
+        -Am Bordstein hochtreten und zum<br>
+        Stromkasten laufen<br>
+        <br>
 
+        1.Szene Einstellung 4:<br>
+        Von RM Richtung Stromkasten<br>
+        Song: Teenage Dirtbag<br>
+        Ästhetik: Sonnenuntergangsstimmung<br>
+        Rolle: Sarah, Juna & Lilly<br>
+        Handlung: -Lilly sitz auf dem Stromkasten<br>
+        -Juna und Sarah legen Boards ab und klettern hoch.<br>
+        <br>
+
+        1.Szene Einstellung 5:<br>
+        Nahaufnahme von Figuren<br>
+        Song: Teenage Dirtbag<br>
+        Ästhetik: Sonnenuntergangsstimmung<br>
+        Rolle: Sarah, Juna & Lilly<br>
+        Handlung: -Sarah holt Bier aus Rucksack<br>
+        -Anderen quatschen<br>
+        <br>
+
+        Dialog:<br>
+
+        Lilly: Oh, Hi Leute!<br>
+
+        Juna: Hey Lilly. Sarah hat Suff dabei.<br>
+
+        Klettern hoch Sarah: Voila! (grinsend)<br>
+
+        Juna: Ach Mensch, Sarah warum immer so viel.
+        Ich dachte du hast ein bisschen mit.<br>
+
+        Sarah: Entspann dich.<br>
 
       </p>
+
     </div>
 
-    <!-- IMPRESSUM UNTEN -->
+
+    <!-- =========================
+         IMPRESSUM
+         ========================= -->
+
     <footer>
 
       <h3>Impressum</h3>
@@ -182,18 +376,31 @@ Sarah: Entspann dich.<br>
 
     </footer>
 
+
+    <!-- =========================
+         JAVASCRIPT
+         ========================= -->
+
     <script>
 
       // Passwortschutz
+
       const password = '2504';
+
       const userInput = prompt('Bitte Passwort eingeben:');
 
       if (userInput !== password) {
+
         document.body.innerHTML =
-          '<h2 style="text-align:center; margin-top:50px;">Zugriff verweigert</h2>';
+          '<h2 style="color:white; text-align:center; margin-top:50px;">Zugriff verweigert</h2>';
+
+        document.body.style.backgroundColor = '#111';
+        document.body.style.backgroundImage = 'none';
       }
 
+
       // Seiten wechseln
+
       function showPage(pageId) {
 
         const pages = document.querySelectorAll('.page');
@@ -203,9 +410,18 @@ Sarah: Entspann dich.<br>
         });
 
         document.getElementById(pageId).classList.add('active');
+
+        // Beim Wechsel der Seite wieder nach oben
+
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+
       }
 
     </script>
+
 
   </body>
 </html>
