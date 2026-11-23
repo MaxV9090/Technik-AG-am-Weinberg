@@ -1,68 +1,308 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Technik AG am Weinberg</title>
+
   <script>
+    /* Schon entsperrt in diesem Tab? */
+    try {
+      if (sessionStorage.getItem('offen') === '1') {
+        document.documentElement.classList.add('offen');
+      }
+    } catch (e) {}
+  </script>
 
-    /* PASSWORTSCHUTZ */
+  <style>
 
-    const password = '2504';
+    /* =========================
+       FARBEN (hell / dunkel automatisch)
+       ========================= */
 
-    /* Seite erst verstecken, Abfrage kommt nach dem Laden */
-    document.documentElement.style.visibility = 'hidden';
+    :root {
+      --bg: #e6e6e6;
+      --grid: rgba(0, 0, 0, 0.05);
+      --card: #ffffff;
+      --card-2: #f2f2f2;
+      --text: #0d0d0d;
+      --muted: #666666;
+      --line: #cdcdcd;
+      --strong: #0d0d0d;
+      --on-strong: #ffffff;
+      --glow: rgba(0, 0, 0, 0.07);
+      --shadow: 0 24px 60px rgba(0, 0, 0, 0.14);
+    }
 
-    window.addEventListener('load', function () {
-
-      setTimeout(function () {
-
-        const userInput = prompt('Bitte Passwort eingeben:');
-
-        if (userInput !== password) {
-
-          document.body.innerHTML =
-            '<h2 class="denied">Zugriff verweigert</h2>';
-
-        }
-
-        document.documentElement.style.visibility = 'visible';
-
-      }, 100);
-
-    });
-
-
-    /* SEITEN WECHSELN */
-
-    function showPage(pageId) {
-
-      document.querySelectorAll('.page').forEach(page => {
-        page.classList.remove('active');
-      });
-
-      document.querySelectorAll('nav a').forEach(link => {
-        link.classList.remove('current');
-      });
-
-      document.getElementById(pageId).classList.add('active');
-      document.getElementById('nav-' + pageId).classList.add('current');
-
-      window.scrollTo({
-        top: document.querySelector('main').offsetTop - 20,
-        behavior: 'smooth'
-      });
-
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0a0a0a;
+        --grid: rgba(255, 255, 255, 0.035);
+        --card: #141414;
+        --card-2: #1c1c1c;
+        --text: #f2f2f2;
+        --muted: #8a8a8a;
+        --line: #2b2b2b;
+        --strong: #f2f2f2;
+        --on-strong: #0a0a0a;
+        --glow: rgba(255, 255, 255, 0.08);
+        --shadow: 0 24px 60px rgba(0, 0, 0, 0.7);
+      }
     }
 
 
-    /* LICHT FOLGT DER MAUS */
+    /* =========================
+       GRUNDLAYOUT
+       ========================= */
 
-    document.addEventListener('pointermove', function (e) {
+    * {
+      box-sizing: border-box;
+    }
 
-      const page = document.querySelector('.page.active');
+    html {
+      min-height: 100%;
+      scroll-behavior: smooth;
+    }
 
-      if (!page) return;
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
 
-      const rect = page.getBoundingClientRect();
+      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background-color: var(--bg);
+      background-image:
+        linear-gradient(var(--grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+      background-size: 48px 48px;
+      background-attachment: fixed;
+    }
 
-      page.style.setProperty('--mx', (e.clientX - rect.left) + 'px');
-      page.style.setProperty('--my', (e.clientY - rect.top) + 'px');
+    html:not(.offen) body {
+      overflow: hidden;
+      height: 100vh;
+    }
 
-    });
 
-  </script>
+    /* =========================
+       SPERRBILDSCHIRM (Passwort)
+       ========================= */
+
+    .lock {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(ellipse 70% 50% at 50% 0%, var(--glow), transparent 70%),
+        linear-gradient(var(--grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+      background-size: 100% 100%, 48px 48px, 48px 48px;
+    }
+
+    html.offen .lock {
+      display: none;
+    }
+
+    .lock-box {
+      width: 100%;
+      max-width: 380px;
+      text-align: center;
+
+      background-color: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      padding: 36px 30px;
+    }
+
+    .lock-box h1 {
+      margin: 0 0 6px;
+      font-size: 26px;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+
+    .lock-box p {
+      margin: 0 0 24px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .lock-box input {
+      width: 100%;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0.3em;
+
+      color: var(--text);
+      background-color: var(--card-2);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      outline: none;
+    }
+
+    .lock-box input:focus {
+      border-color: var(--strong);
+    }
+
+    .lock-box button {
+      width: 100%;
+      padding: 14px 16px;
+
+      font-size: 16px;
+      font-weight: 800;
+      cursor: pointer;
+
+      color: var(--on-strong);
+      background-color: var(--strong);
+      border: none;
+      border-radius: 10px;
+    }
+
+    .lock-box .fehler {
+      min-height: 20px;
+      margin: 14px 0 0;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+
+    /* =========================
+       KOPFBEREICH = BÜHNE
+       (immer dunkel, egal welcher Modus)
+       ========================= */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+
+      min-height: min(80vh, 660px);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+
+      padding: 0 20px 56px;
+      background:
+        radial-gradient(ellipse 70% 40% at 50% 100%, rgba(255, 255, 255, 0.10), transparent 70%),
+        #050505;
+      color: #ffffff;
+    }
+
+    /* Übergang in die Seite */
+    .hero::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 140px;
+      background: linear-gradient(to bottom, transparent, var(--bg));
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Traverse oben */
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 8px;
+      background: linear-gradient(#2a2a2a, #0d0d0d);
+      border-bottom: 1px solid #3a3a3a;
+      z-index: 2;
+    }
+
+
+    /* Scheinwerfer */
+
+    .beam {
+      position: absolute;
+      top: 8px;
+      left: var(--x);
+      width: 0;
+      height: 100%;
+      transform-origin: 0 0;
+      transform: rotate(var(--a));
+      animation: sweep var(--d) ease-in-out infinite alternate;
+      animation-delay: var(--delay, 0s);
+      mix-blend-mode: screen;
+      pointer-events: none;
+    }
+
+    .beam::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -130px;
+      width: 260px;
+      height: 120%;
+      clip-path: polygon(47% 0, 53% 0, 100% 100%, 0 100%);
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.60),
+        rgba(255, 255, 255, 0.10) 65%,
+        transparent
+      );
+      filter: blur(5px);
+    }
+
+    .beam::after {
+      content: "";
+      position: absolute;
+      top: -9px;
+      left: -10px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 0 26px 10px rgba(255, 255, 255, 0.55);
+    }
+
+    @keyframes sweep {
+      from { transform: rotate(var(--a)); }
+      to   { transform: rotate(var(--b)); }
+    }
+
+
+    /* Titel */
+
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      margin-bottom: 38px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-weight: 900;
+      line-height: 0.95;
+      letter-spacing: -0.045em;
+    }
+
+    .hero h1 span {
+      display: block;
+    }
+
+    .l1 {
