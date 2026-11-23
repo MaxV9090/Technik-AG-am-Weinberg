@@ -306,3 +306,649 @@
     }
 
     .l1 {
+      font-size: clamp(54px, 13vw, 150px);
+      color: #ffffff;
+      text-shadow: 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    .l2 {
+      font-size: clamp(40px, 10vw, 112px);
+      color: transparent;
+      -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9);
+    }
+
+
+    /* =========================
+       NAVIGATION = MISCHPULT
+       ========================= */
+
+    nav {
+      position: relative;
+      z-index: 2;
+
+      display: flex;
+      gap: 6px;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      padding: 6px;
+      background-color: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 14px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    nav a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      color: rgba(255, 255, 255, 0.65);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+
+      padding: 12px 20px;
+      border-radius: 9px;
+      border: 1px solid transparent;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    nav a::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #3a3a3a;
+      transition: background-color 0.2s, box-shadow 0.2s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0.07);
+    }
+
+    nav a.current {
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0.14);
+      border-color: rgba(255, 255, 255, 0.35);
+    }
+
+    nav a.current::before {
+      background-color: #ffffff;
+      box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8);
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--muted);
+      outline-offset: 3px;
+    }
+
+
+    /* =========================
+       INHALTSBEREICH
+       ========================= */
+
+    main {
+      flex: 1;
+      padding: 20px 20px 80px;
+    }
+
+
+    /* =========================
+       SEITEN
+       ========================= */
+
+    .page {
+      display: none;
+      position: relative;
+      overflow: hidden;
+
+      background-color: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+
+      padding: 40px;
+      margin: 0 auto;
+
+      width: 100%;
+      max-width: 720px;
+      min-height: 340px;
+    }
+
+    .page > * {
+      position: relative;
+    }
+
+    /* Licht folgt der Maus */
+    .page::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 0%), var(--glow), transparent 60%);
+      pointer-events: none;
+    }
+
+    .active {
+      display: block;
+      animation: einblenden 0.4s ease;
+    }
+
+    @keyframes einblenden {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    .page h2 {
+      margin: 0 0 30px;
+      font-size: clamp(30px, 5vw, 42px);
+      font-weight: 900;
+      letter-spacing: -0.035em;
+      line-height: 1;
+    }
+
+    .page h2::after {
+      content: "";
+      display: block;
+      width: 48px;
+      height: 4px;
+      margin-top: 16px;
+      background-color: var(--strong);
+      border-radius: 2px;
+    }
+
+    .page ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+
+    /* =========================
+       VERANSTALTUNGEN
+       ========================= */
+
+    #personen li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px 20px;
+
+      background-color: var(--card-2);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 18px 20px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    #personen li:hover {
+      border-color: var(--strong);
+      transform: translateX(4px);
+    }
+
+    .ev-title {
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 1.35;
+    }
+
+    .ev-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: ui-monospace, "SF Mono", Consolas, monospace;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .ev-time {
+      background-color: var(--strong);
+      color: var(--on-strong);
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+
+    /* =========================
+       DOWNLOADS
+       ========================= */
+
+    a.download {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      background-color: var(--card-2);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 16px 20px;
+
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      line-height: 1.35;
+      transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    }
+
+    a.download .ext {
+      flex-shrink: 0;
+      font-family: ui-monospace, "SF Mono", Consolas, monospace;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      background-color: var(--card);
+      color: var(--muted);
+    }
+
+    a.download::after {
+      content: "↓";
+      margin-left: auto;
+      flex-shrink: 0;
+      font-size: 22px;
+      transition: transform 0.2s;
+    }
+
+    a.download:hover {
+      background-color: var(--strong);
+      color: var(--on-strong);
+      border-color: var(--strong);
+    }
+
+    a.download:hover::after {
+      transform: translateY(3px);
+    }
+
+
+    /* =========================
+       MITGLIEDER
+       ========================= */
+
+    .members {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .member {
+      position: relative;
+      overflow: hidden;
+
+      background-color: var(--card-2);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 30px 22px 20px;
+      font-weight: 800;
+      font-size: 19px;
+      letter-spacing: -0.01em;
+      transition: border-color 0.2s;
+    }
+
+    .member:hover {
+      border-color: var(--strong);
+    }
+
+    .member .ini {
+      position: absolute;
+      right: 12px;
+      bottom: -26px;
+      font-size: 110px;
+      font-weight: 900;
+      line-height: 1;
+      color: var(--line);
+      pointer-events: none;
+    }
+
+    .member .name {
+      position: relative;
+    }
+
+
+    /* =========================
+       IMPRESSUM
+       ========================= */
+
+    footer {
+      border-top: 1px solid var(--line);
+      background-color: var(--card);
+      text-align: center;
+      padding: 44px 20px;
+    }
+
+    footer h3 {
+      margin: 0 0 16px;
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+
+    footer p {
+      margin: 6px 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+
+    /* =========================
+       HANDY-ANSICHT
+       ========================= */
+
+    @media (max-width: 700px) {
+
+      .hero {
+        min-height: 520px;
+        padding-bottom: 40px;
+      }
+
+      .l2 {
+        -webkit-text-stroke-width: 1.5px;
+      }
+
+      nav a {
+        padding: 10px 14px;
+        font-size: 14px;
+      }
+
+      main {
+        padding: 14px 14px 60px;
+      }
+
+      .page {
+        padding: 26px;
+        min-height: 280px;
+      }
+
+      .members {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .beam,
+      .active {
+        animation: none;
+      }
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+  <!-- =========================
+       SPERRBILDSCHIRM
+       ========================= -->
+
+  <div class="lock">
+
+    <form class="lock-box" id="lock-form" autocomplete="off">
+
+      <h1>Technik AG am Weinberg</h1>
+
+      <p>Bitte Passwort eingeben</p>
+
+      <input
+        type="password"
+        id="lock-input"
+        inputmode="numeric"
+        placeholder="••••"
+        aria-label="Passwort">
+
+      <button type="submit">Öffnen</button>
+
+      <p class="fehler" id="lock-fehler"></p>
+
+    </form>
+
+  </div>
+
+
+  <!-- KOPFBEREICH -->
+
+  <header class="hero">
+
+    <div class="beam" style="--x: 12%; --a: -24deg; --b: 10deg; --d: 7s;"></div>
+    <div class="beam" style="--x: 32%; --a: 16deg; --b: -14deg; --d: 9s; --delay: -3s;"></div>
+    <div class="beam" style="--x: 50%; --a: -10deg; --b: 12deg; --d: 6s; --delay: -1s;"></div>
+    <div class="beam" style="--x: 68%; --a: 14deg; --b: -18deg; --d: 8s; --delay: -5s;"></div>
+    <div class="beam" style="--x: 88%; --a: 24deg; --b: -8deg; --d: 7.5s; --delay: -2s;"></div>
+
+    <div class="hero-inner">
+      <h1>
+        <span class="l1">Technik AG</span>
+        <span class="l2">am Weinberg</span>
+      </h1>
+    </div>
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+      <a href="#" id="nav-personen" class="current" onclick="showPage('personen'); return false;">
+        Veranstaltungen
+      </a>
+
+      <a href="#" id="nav-dateien" onclick="showPage('dateien'); return false;">
+        Dateien
+      </a>
+
+      <a href="#" id="nav-drehbuch" onclick="showPage('drehbuch'); return false;">
+        Mitglieder
+      </a>
+
+    </nav>
+
+  </header>
+
+
+  <!-- HAUPTINHALT -->
+
+  <main>
+
+    <!-- VERANSTALTUNGEN -->
+
+    <div id="personen" class="page active">
+
+      <h2>
+        Veranstaltungen
+      </h2>
+
+      <ul>
+
+        <li>
+          <span class="ev-title">Informationsveranstaltung</span>
+          <span class="ev-meta">31.08.2026 <span class="ev-time">18:00</span></span>
+        </li>
+
+        <li>
+          <span class="ev-title">Informationsveranstaltung</span>
+          <span class="ev-meta">01.09.2026 <span class="ev-time">18:00</span></span>
+        </li>
+
+        <li>
+          <span class="ev-title">Informationsveranstaltung</span>
+          <span class="ev-meta">01.09.2026 <span class="ev-time">19:00</span></span>
+        </li>
+
+        <li>
+          <span class="ev-title">Digitalietätswoche (Strom und einzelne Mikrofone)</span>
+          <span class="ev-meta">21.09.2026-25.09.2026</span>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- DATEIEN -->
+
+    <div id="dateien" class="page">
+
+      <h2>
+        Dateien
+      </h2>
+
+      <ul>
+
+        <li>
+          <a class="download"
+             href="aula.dvc"
+             download>
+            <span class="ext">DVC</span>
+            Aula Daslight 5 show file herunterladen
+          </a>
+        </li>
+
+        <li>
+          <a class="download"
+             href="elternabend.dvc"
+             download>
+            <span class="ext">DVC</span>
+            Elternabend Daslight 5 show file herunterladen
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- MITGLIEDER -->
+
+    <div id="drehbuch" class="page">
+
+      <h2>
+        Mitglieder
+      </h2>
+
+      <div class="members">
+
+        <div class="member"><span class="ini">M</span><span class="name">Max M.</span></div>
+
+        <div class="member"><span class="ini">M</span><span class="name">Max V.</span></div>
+
+        <div class="member"><span class="ini">N</span><span class="name">Niklas W.</span></div>
+
+        <div class="member"><span class="ini">F</span><span class="name">Frieda W.</span></div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <!-- IMPRESSUM -->
+
+  <footer>
+
+    <h3>
+      Impressum
+    </h3>
+
+    <p>
+      Name: Max Voge
+    </p>
+
+    <p>
+      Telefon: 017632609863
+    </p>
+
+    <p>
+      E-Mail: maxvoge26@icloud.com
+    </p>
+
+    <p>
+      Adresse: Schleusenweg 79 14532 Kleinmachnow
+    </p>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+
+  <script>
+
+    /* PASSWORTSCHUTZ */
+
+    const PASSWORT = '2504';
+
+    document.getElementById('lock-form').addEventListener('submit', function (e) {
+
+      e.preventDefault();
+
+      const feld = document.getElementById('lock-input');
+      const fehler = document.getElementById('lock-fehler');
+
+      if (feld.value === PASSWORT) {
+
+        try {
+          sessionStorage.setItem('offen', '1');
+        } catch (err) {}
+
+        document.documentElement.classList.add('offen');
+
+      } else {
+
+        fehler.textContent = 'Falsches Passwort';
+        feld.value = '';
+        feld.focus();
+
+      }
+
+    });
+
+
+    /* SEITEN WECHSELN */
+
+    function showPage(pageId) {
+
+      document.querySelectorAll('.page').forEach(function (page) {
+        page.classList.remove('active');
+      });
+
+      document.querySelectorAll('nav a').forEach(function (link) {
+        link.classList.remove('current');
+      });
+
+      document.getElementById(pageId).classList.add('active');
+      document.getElementById('nav-' + pageId).classList.add('current');
+
+      window.scrollTo({
+        top: document.querySelector('main').offsetTop - 20,
+        behavior: 'smooth'
+      });
+
+    }
+
+
+    /* LICHT FOLGT DER MAUS */
+
+    document.addEventListener('pointermove', function (e) {
+
+      const page = document.querySelector('.page.active');
+
+      if (!page) return;
+
+      const rect = page.getBoundingClientRect();
+
+      page.style.setProperty('--mx', (e.clientX - rect.left) + 'px');
+      page.style.setProperty('--my', (e.clientY - rect.top) + 'px');
+
+    });
+
+  </script>
+
+</body>
+
+</html>
