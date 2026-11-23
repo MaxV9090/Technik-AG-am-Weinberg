@@ -4,14 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
 
   <title>Technik AG am Weinberg</title>
 
   <style>
 
     /* =========================
+       FARBEN
+       Hell = Standard, Dunkel automatisch
+       passend zur Geräte-Einstellung
+       ========================= */
+
+    :root {
+      --bg: #f2f2f2;
+      --surface: #ffffff;
+      --bar: #1a1a1a;
+      --bar-text: #f2f2f2;
+      --text: #1a1a1a;
+      --muted: #666666;
+      --line: #d4d4d4;
+      --accent: #1a1a1a;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --surface: #1e1e1e;
+        --bar: #0a0a0a;
+        --bar-text: #e8e8e8;
+        --text: #e8e8e8;
+        --muted: #9a9a9a;
+        --line: #333333;
+        --accent: #e8e8e8;
+      }
+    }
+
+
+    /* =========================
        GRUNDLAYOUT
        ========================= */
+
+    * {
+      box-sizing: border-box;
+    }
 
     html {
       min-height: 100%;
@@ -20,18 +56,13 @@
 
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-
-      color: white;
-
-      /* Hintergrundbild */
-      background-image: url("hintergrund.png");
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-
       min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+
+      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
     }
 
 
@@ -40,16 +71,17 @@
        ========================= */
 
     header {
-      background-color: rgba(0, 0, 0, 0.85);
-      color: white;
-
-      padding: 20px;
+      background-color: var(--bar);
+      color: var(--bar-text);
+      padding: 24px 20px 8px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
       font-size: 28px;
+      font-weight: 600;
+      letter-spacing: 0.01em;
     }
 
 
@@ -58,25 +90,39 @@
        ========================= */
 
     nav {
-      background-color: rgba(0, 0, 0, 0.85);
-
-      padding: 15px;
+      background-color: var(--bar);
+      padding: 12px 20px 20px;
 
       display: flex;
-      gap: 20px;
-
+      gap: 8px;
       justify-content: center;
       flex-wrap: wrap;
     }
 
     nav a {
-      color: white;
+      color: var(--bar-text);
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
+      font-size: 15px;
+
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 1px solid transparent;
     }
 
     nav a:hover {
-      text-decoration: underline;
+      border-color: #555;
+    }
+
+    nav a.current {
+      background-color: var(--bar-text);
+      color: var(--bar);
+    }
+
+    nav a:focus-visible,
+    a.download:focus-visible {
+      outline: 2px solid #888;
+      outline-offset: 2px;
     }
 
 
@@ -84,18 +130,9 @@
        INHALTSBEREICH
        ========================= */
 
-    /*
-       Der Inhaltsbereich nimmt mindestens
-       eine komplette Bildschirmhöhe ein.
-
-       Dadurch ist das Impressum beim
-       Öffnen der Seite NICHT sichtbar.
-    */
-
     main {
-      min-height: 100vh;
-      padding-top: 1px;
-      box-sizing: border-box;
+      flex: 1;
+      padding: 30px 20px;
     }
 
 
@@ -106,48 +143,48 @@
     .page {
       display: none;
 
-      background-color: rgba(0, 0, 0, 0.80);
+      background-color: var(--surface);
+      color: var(--text);
 
-      color: white;
+      border: 1px solid var(--line);
+      border-radius: 10px;
 
       padding: 30px;
+      margin: 0 auto;
 
-      margin: 30px;
-
-      border-radius: 15px;
-
-      /*
-         Kasten deutlich schmaler
-      */
-      width: 35%;
-
-      /*
-         Höhe des Kastens
-      */
-      min-height: 400px;
-
-      box-sizing: border-box;
+      width: 100%;
+      max-width: 560px;
+      min-height: 320px;
     }
 
     .active {
       display: block;
     }
 
-
-    /* Überschriften */
-
     .page h2 {
-      color: white;
-      margin-top: 0;
+      margin: 0 0 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
+      font-size: 22px;
+      font-weight: 600;
     }
-
-
-    /* Text */
 
     .page p,
     .page li {
-      color: white;
-      line-height: 1.6;
+      line-height: 1.7;
+    }
+
+    .page ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .page li {
+      margin-bottom: 8px;
+    }
+
+    .page li::marker {
+      color: var(--muted);
     }
 
 
@@ -156,15 +193,15 @@
        ========================= */
 
     a.download {
-      color: white;
-
-      text-decoration: none;
-
-      font-weight: bold;
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: underline;
+      text-decoration-color: var(--muted);
+      text-underline-offset: 3px;
     }
 
     a.download:hover {
-      text-decoration: underline;
+      text-decoration-color: var(--accent);
     }
 
 
@@ -173,27 +210,34 @@
        ========================= */
 
     footer {
-      background-color: rgba(0, 0, 0, 0.90);
-
-      color: white;
-
+      background-color: var(--bar);
+      color: var(--bar-text);
       text-align: center;
-
-      padding: 35px;
-
-      margin-top: 0;
-
-      box-sizing: border-box;
+      padding: 35px 20px;
     }
 
     footer h3 {
-      color: white;
-      margin-top: 0;
+      margin: 0 0 12px;
+      font-size: 16px;
+      font-weight: 600;
     }
 
     footer p {
-      color: white;
-      margin: 8px 0;
+      margin: 6px 0;
+      font-size: 14px;
+      color: #b5b5b5;
+    }
+
+
+    /* =========================
+       ZUGRIFF VERWEIGERT
+       ========================= */
+
+    .denied {
+      margin: 0;
+      padding: 50px 20px;
+      text-align: center;
+      font-weight: 600;
     }
 
 
@@ -207,22 +251,13 @@
         font-size: 23px;
       }
 
-      nav {
-        gap: 15px;
+      main {
+        padding: 20px 14px;
       }
 
       .page {
-        width: auto;
-
-        margin: 20px;
-
-        padding: 25px;
-
-        min-height: 500px;
-      }
-
-      main {
-        min-height: 100vh;
+        padding: 22px;
+        min-height: 260px;
       }
 
       footer {
@@ -237,51 +272,39 @@
 
 <body>
 
-
-  <!-- =========================
-       KOPFZEILE
-       ========================= -->
+  <!-- KOPFZEILE -->
 
   <header>
-
     <h1>
       Technik AG am Weinberg
     </h1>
-
   </header>
 
 
-  <!-- =========================
-       NAVIGATION
-       ========================= -->
+  <!-- NAVIGATION -->
 
   <nav>
 
-    <a href="#" onclick="showPage('personen'); return false;">
+    <a href="#" id="nav-personen" class="current" onclick="showPage('personen'); return false;">
       Veranstaltungen
     </a>
 
-    <a href="#" onclick="showPage('dateien'); return false;">
+    <a href="#" id="nav-dateien" onclick="showPage('dateien'); return false;">
       Dateien
     </a>
 
-    <a href="#" onclick="showPage('drehbuch'); return false;">
+    <a href="#" id="nav-drehbuch" onclick="showPage('drehbuch'); return false;">
       Mitglieder
     </a>
 
   </nav>
 
 
-  <!-- =========================
-       HAUPTINHALT
-       ========================= -->
+  <!-- HAUPTINHALT -->
 
   <main>
 
-
-    <!-- =========================
-         VERANSTALTUNGEN
-         ========================= -->
+    <!-- VERANSTALTUNGEN -->
 
     <div id="personen" class="page active">
 
@@ -304,18 +327,15 @@
         </li>
 
         <li>
-          Digitalietätswoche (Strom und einzelne Mikrofone) 21.09.2026-25.09.2026 
-          </li>
-
+          Digitalietätswoche (Strom und einzelne Mikrofone) 21.09.2026-25.09.2026
+        </li>
 
       </ul>
 
     </div>
 
 
-    <!-- =========================
-         DATEIEN
-         ========================= -->
+    <!-- DATEIEN -->
 
     <div id="dateien" class="page">
 
@@ -346,9 +366,7 @@
     </div>
 
 
-    <!-- =========================
-         DREHBUCH
-         ========================= -->
+    <!-- MITGLIEDER -->
 
     <div id="drehbuch" class="page">
 
@@ -358,8 +376,6 @@
 
       <p>
 
-        
-
         Max M.<br>
 
         Max V.<br>
@@ -368,7 +384,6 @@
 
         Frieda W.<br>
 
-
       </p>
 
     </div>
@@ -376,9 +391,7 @@
   </main>
 
 
-  <!-- =========================
-       IMPRESSUM
-       ========================= -->
+  <!-- IMPRESSUM -->
 
   <footer>
 
@@ -405,15 +418,11 @@
   </footer>
 
 
-  <!-- =========================
-       JAVASCRIPT
-       ========================= -->
+  <!-- JAVASCRIPT -->
 
   <script>
 
-    /* =========================
-       PASSWORTSCHUTZ
-       ========================= */
+    /* PASSWORTSCHUTZ */
 
     const password = '2504';
 
@@ -424,30 +433,25 @@
     if (userInput !== password) {
 
       document.body.innerHTML =
-        '<h2 style="color:white; text-align:center; margin-top:50px;">Zugriff verweigert</h2>';
+        '<h2 class="denied">Zugriff verweigert</h2>';
 
-      document.body.style.backgroundColor = '#111';
-
-      document.body.style.backgroundImage = 'none';
     }
 
 
-    /* =========================
-       SEITEN WECHSELN
-       ========================= */
+    /* SEITEN WECHSELN */
 
     function showPage(pageId) {
 
-      const pages =
-        document.querySelectorAll('.page');
-
-      pages.forEach(page => {
+      document.querySelectorAll('.page').forEach(page => {
         page.classList.remove('active');
       });
 
-      document
-        .getElementById(pageId)
-        .classList.add('active');
+      document.querySelectorAll('nav a').forEach(link => {
+        link.classList.remove('current');
+      });
+
+      document.getElementById(pageId).classList.add('active');
+      document.getElementById('nav-' + pageId).classList.add('current');
 
       window.scrollTo({
         top: 0,
@@ -457,7 +461,6 @@
     }
 
   </script>
-
 
 </body>
 
